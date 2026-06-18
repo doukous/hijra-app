@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+     <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <application>
+        <receiver android:name=".widgets.data.DateAlarmReceiver" android:exported="false" />
+        <receiver android:name=".widgets.TodayDate.Receiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/today_date_widget_info" />
+        </receiver>
+        <receiver android:name=".widgets.GeneralCalendar.Receiver"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/general_calendar_widget_info" />
+        </receiver>
+    </application>
+</manifest>

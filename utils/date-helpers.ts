@@ -5,4 +5,16 @@ export const options: Intl.DateTimeFormatOptions = {
   day: "numeric",
 };
 
-export const currentDate = new Date();
+export const todayDate = new Date();
+
+export const monthInArabic = todayDate.toLocaleDateString("ar", {
+  calendar: "islamic",
+  month: "long",
+});
+
+export const todayDateInIslamicCalendar = todayDate.toLocaleDateString(
+  "fr",
+  options,
+);
+
+export class CustomDate {}

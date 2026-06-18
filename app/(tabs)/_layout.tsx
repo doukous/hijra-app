@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import React from "react";
-import { House, Search } from "lucide-react-native";
+import { Calendar, House } from "lucide-react-native";
 
 export default function TabLayout() {
   return (
@@ -17,10 +17,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="preview-screen"
+        name="calendar"
         options={{
-          title: "Preview",
-          tabBarIcon: ({ color, size }) => <Search color={color} size={size} />,
+          title: "Calendar",
+          tabBarIcon: ({ color, size }) => (
+            <Calendar color={color} size={size} />
+          ),
         }}
       />
     </Tabs>

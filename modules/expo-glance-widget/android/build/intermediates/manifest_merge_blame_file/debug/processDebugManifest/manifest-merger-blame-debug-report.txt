@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="expo.modules.glancewidget" >
+5
+6    <uses-sdk android:minSdkVersion="26" />
+7
+8    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+8-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:4:6-74
+8-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:4:23-72
+9
+10    <application>
+10-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:5:5-24:19
+11        <receiver
+11-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:6:9-93
+12            android:name="expo.modules.glancewidget.widgets.data.DateAlarmReceiver"
+12-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:6:19-65
+13            android:exported="false" />
+13-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:6:66-90
+14        <receiver
+14-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:7:9-14:20
+15            android:name="expo.modules.glancewidget.widgets.TodayDate.Receiver"
+15-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:7:19-61
+16            android:exported="true" >
+16-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:7:62-85
+17            <intent-filter>
+17-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:8:13-10:29
+18                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+18-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:9:17-84
+18-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:9:25-81
+19            </intent-filter>
+20
+21            <meta-data
+21-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:11:13-13:70
+22                android:name="android.appwidget.provider"
+22-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:12:21-62
+23                android:resource="@xml/today_date_widget_info" />
+23-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:13:21-67
+24        </receiver>
+25        <receiver
+25-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:15:9-23:20
+26            android:name="expo.modules.glancewidget.widgets.GeneralCalendar.Receiver"
+26-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:15:19-67
+27            android:exported="true" >
+27-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:16:17-40
+28            <intent-filter>
+28-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:8:13-10:29
+29                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+29-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:9:17-84
+29-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:9:25-81
+30            </intent-filter>
+31
+32            <meta-data
+32-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:11:13-13:70
+33                android:name="android.appwidget.provider"
+33-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:12:21-62
+34                android:resource="@xml/general_calendar_widget_info" />
+34-->/home/mohamed/Documents/side-projects/hijra/modules/expo-glance-widget/android/src/main/AndroidManifest.xml:13:21-67
+35        </receiver>
+36    </application>
+37
+38</manifest>

@@ -41,24 +41,11 @@
         }
       ],
       [
-        "react-native-android-widget",
+        "expo-build-properties",
         {
-          "fonts": [],
-          "widgets": [
-            {
-              "name": "Test",
-              "label": "My Test Widget",
-              "minWidth": "320dp",
-              "minHeight": "120dp",
-              "targetCellWidth": 4,
-              "targetCellHeight": 2,
-              "description": "This is my first widget",
-              "previewImage": "./assets/widget-preview/icon.png",
-              "updatePeriodMillis": 1800000,
-
-              "widgetFeatures": "reconfigurable"
-            }
-          ]
+          "android": {
+            "minSdkVersion": 26
+          }
         }
       ]
     ],
