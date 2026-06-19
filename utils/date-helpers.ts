@@ -1,20 +1,28 @@
-export const options: Intl.DateTimeFormatOptions = {
-  calendar: "islamic",
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-};
+import { TodayDateData } from "@/modules/calendar-bridge/src/CalendarBridge.types";
+import CalendarBridge from "@/modules/calendar-bridge/src/CalendarBridgeModule";
 
-export const todayDate = new Date();
+export const daysInitials = ["M", "T", "W", "T", "F", "S", "D"];
 
-export const monthInArabic = todayDate.toLocaleDateString("ar", {
-  calendar: "islamic",
-  month: "long",
-});
+export class CustomDate {
+  todayDate: TodayDateData;
 
-export const todayDateInIslamicCalendar = todayDate.toLocaleDateString(
-  "fr",
-  options,
-);
+  constructor() {
+    this.todayDate = CalendarBridge.getTodayDate();
+  }
 
-export class CustomDate {}
+  getTodayDate() {
+    return CalendarBridge.getTodayDate();
+  }
+
+  getGenericDate() {
+    return CalendarBridge.getGenericDateInfos();
+  }
+
+  previousMonth() {
+    CalendarBridge.setToPreviousMonth();
+  }
+
+  nextMonth() {
+    CalendarBridge.setToNextMonth();
+  }
+}

@@ -1,34 +1,99 @@
-import { todayDate } from "@/utils/date-helpers";
-import { strCapitalize } from "@/utils/str-helpers";
+import { GenericDateData } from "@/modules/calendar-bridge/src/CalendarBridge.types";
+import CalendarBridgeModule from "@/modules/calendar-bridge/src/CalendarBridgeModule";
+import { CustomDate, daysInitials } from "@/utils/date-helpers";
 import { ChevronLeft, ChevronRight } from "lucide-react-native";
+import { useEffect, useState } from "react";
 import { View, Text, Pressable } from "react-native";
 
 export default function CalendarScreen() {
-  const month = strCapitalize(
-    todayDate.toLocaleString("fr-FR", {
-      month: "long",
-      calendar: "islamic",
-    }),
+  const customDate = new CustomDate();
+
+  const [date, setDate] = useState<GenericDateData>(
+    customDate.getGenericDate(),
   );
 
-  const arrayMonth = new Array(35).fill(null);
+  const [isdateSectionToggled, toggleDateSection] = useState<boolean>(false);
+
+  const [calendarTable, setCalendarTable] = useState(new Array(35).fill(null));
+
+  useEffect(() => {
+    const table = buildArrayMonth();
+    setCalendarTable(table);
+  }, [date]);
+
+  useEffect(() => {
+    buildArrayMonth();
+
+    const listener = CalendarBridgeModule.addListener(
+      "onDateChange",
+      (date) => {
+        setDate(date);
+        buildArrayMonth();
+      },
+    );
+
+    return () => listener.remove();
+  }, []);
+
+  const buildArrayMonth = () => {
+    const table = new Array(42).fill(null);
+    for (let index = 0; index < date.numberOfDays; index++)
+      table[index + date.positionOfFirstDayInWeek - 1] = index + 1;
+
+    return table;
+  };
 
   return (
-    <View className="flex-1 items-center m-1">
-      <View className="flex-row items-center gap-x-6">
-        <Pressable>
+    <View className="flex-1 items-center justify-around">
+      <View className="w-full flex-row items-center justify-between gap-x-8 px-4">
+        <Pressable
+          className="bg-blue-400 p-2 rounded-xl"
+          onPress={() => customDate.previousMonth()}
+        >
           <ChevronLeft />
         </Pressable>
-        <Text className="text-xl">{month}</Text>
-        <Pressable>
+
+        <Text className="w-2/5">
+          {date.monthInEnglish.toUpperCase()} - {date.monthInArabic}
+        </Text>
+
+        <Text>{date.year} AH</Text>
+
+        <Pressable
+          className="bg-blue-400 p-2 rounded-xl"
+          onPress={() => customDate.nextMonth()}
+        >
           <ChevronRight />
         </Pressable>
       </View>
-      <View className="w-68 m-auto items-center justify-center flex-row flex-wrap gap-x-2 gap-y-4">
-        {arrayMonth.map((value, key) => (
-          <View key={key} className="bg-blue-700 size-8"></View>
-        ))}
+
+      <View className="gap-y-2">
+        <View className="flex flex-row flex-wrap justify-start w-full bg-emerald-500">
+          {daysInitials.map((value, key) => (
+            <Text key={key} className="text-white m-auto">
+              {value}
+            </Text>
+          ))}
+        </View>
+
+        <View className="flex flex-row flex-wrap justify-start w-full bg-amber-400">
+          {calendarTable.map((value, key) => (
+            <Pressable
+              key={key}
+              className={`bg-blue-700 w-[14.28%] ${isdateSectionToggled ? "h-16" : "h-24"}`}
+              onPress={() => toggleDateSection(true)}
+            >
+              <Text className="text-white m-auto">{value}</Text>
+            </Pressable>
+          ))}
+        </View>
       </View>
+
+      {isdateSectionToggled && (
+        <View className="h-1/3 w-full bg-emerald-400">
+          <Text>Date</Text>
+        </View>
+      )}
     </View>
   );
 }
