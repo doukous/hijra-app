@@ -4,8 +4,11 @@ import { CustomDate, daysInitials } from "@/utils/date-helpers";
 import { ChevronLeft, ChevronRight } from "lucide-react-native";
 import { useEffect, useState } from "react";
 import { View, Text, Pressable } from "react-native";
-import { Directions, useFlingGesture } from "react-native-gesture-handler";
-import { GestureDetector } from "react-native-gesture-handler/lib/typescript/handlers/gestures/GestureDetector";
+import {
+  Directions,
+  useFlingGesture,
+  GestureDetector,
+} from "react-native-gesture-handler";
 import Animated, { useSharedValue, withTiming } from "react-native-reanimated";
 
 export default function CalendarScreen() {
