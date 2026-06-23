@@ -8,7 +8,7 @@ export default function RootLayout() {
   const insets = useSafeAreaInsets();
 
   return (
-    <GestureHandlerRootView>
+    <GestureHandlerRootView className="flex-1">
       <Stack>
         <Stack.Screen
           name="(tabs)"
