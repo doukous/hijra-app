@@ -12,21 +12,24 @@ export default function Header({
   date: GenericDateData;
 }) {
   return (
-    <View className="w-full flex-row items-center justify-between gap-x-8 px-4">
+    <View className="w-full flex-row items-center justify-between px-4">
       <Pressable
-        className="bg-blue-400 p-2 rounded-xl"
+        className="border-2 border-gray-600 p-2 rounded-full"
         onPress={toPreviousMonth}
       >
         <ChevronLeft />
       </Pressable>
 
-      <Text className="w-2/5">
-        {date.monthInEnglish.toUpperCase()} - {date.monthInArabic}
+      <Text className="w-2/5 font-semibold text-lg">
+        {date.monthInEnglish.toUpperCase()}
       </Text>
 
-      <Text>{date.year} AH</Text>
+      <Text className="font-semibold text-lg">{date.year} AH</Text>
 
-      <Pressable className="bg-blue-400 p-2 rounded-xl" onPress={toNextMonth}>
+      <Pressable
+        className="border-2 border-gray-600 p-2 rounded-full"
+        onPress={toNextMonth}
+      >
         <ChevronRight />
       </Pressable>
     </View>

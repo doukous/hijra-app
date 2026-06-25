@@ -14,7 +14,9 @@ export default function RootLayout() {
           name="(tabs)"
           options={{
             headerShown: false,
-            contentStyle: { marginTop: insets.top },
+            contentStyle: {
+              marginTop: insets.top,
+            },
           }}
         />
       </Stack>
