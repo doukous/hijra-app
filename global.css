@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @import "uniwind";
+
+@theme {
+    /* Montserrat font */
+    --font-montserrat: "Montserrat-Regular";
+    --font-montserrat-medium: "Montserrat-Medium";
+    --font-montserrat-medium-italic: "Montserrat-MediumItalic";
+    --font-montserrat-semibold: "Montserrat-SemiBold";
+    --font-montserrat-semibold-italic: "Montserrat-SemiBoldItalic";
+
+    /* Inter font */
+    --font-inter: "Inter-Regular";
+    --font-inter-medium: "Inter-Medium";
+    --font-inter-medium-italic: "Inter-MediumItalic";
+}

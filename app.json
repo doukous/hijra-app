@@ -47,6 +47,21 @@
             "minSdkVersion": 26
           }
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Inter/Inter-Regular.ttf",
+            "./assets/fonts/Inter/Inter-Medium.ttf",
+            "./assets/fonts/Inter/Inter-MediumItalic.ttf",
+            "./assets/fonts/Montserrat/Montserrat-Regular.ttf",
+            "./assets/fonts/Montserrat/Montserrat-Medium.ttf",
+            "./assets/fonts/Montserrat/Montserrat-MediumItalic.ttf",
+            "./assets/fonts/Montserrat/Montserrat-SemiBold.ttf",
+            "./assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf"
+          ]
+        }
       ]
     ],
     "experiments": {

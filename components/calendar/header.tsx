@@ -20,11 +20,11 @@ export default function Header({
         <ChevronLeft />
       </Pressable>
 
-      <Text className="w-2/5 font-semibold text-lg">
+      <Text className="w-2/5 font-montserrat-semibold text-lg">
         {date.monthInEnglish.toUpperCase()}
       </Text>
 
-      <Text className="font-semibold text-lg">{date.year} AH</Text>
+      <Text className="font-montserrat-medium text-lg">{date.year} AH</Text>
 
       <Pressable
         className="border-2 border-gray-600 p-2 rounded-full"
