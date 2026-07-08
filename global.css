@@ -2,15 +2,17 @@
 @import "uniwind";
 
 @theme {
-    /* Montserrat font */
-    --font-montserrat: "Montserrat-Regular";
-    --font-montserrat-medium: "Montserrat-Medium";
-    --font-montserrat-medium-italic: "Montserrat-MediumItalic";
-    --font-montserrat-semibold: "Montserrat-SemiBold";
-    --font-montserrat-semibold-italic: "Montserrat-SemiBoldItalic";
+    /* Open Sans font */
+    --font-opens-sans: "OpenSans-Regular";
+    --font-opens-sans-medium: "OpenSans-Medium";
+    --font-opens-sans-light: "OpenSans-Light";
+    --font-opens-sans-semibold: "OpenSans-SemiBold";
+    --font-opens-sans-bold: "OpenSans-Bold";
 
-    /* Inter font */
-    --font-inter: "Inter-Regular";
-    --font-inter-medium: "Inter-Medium";
-    --font-inter-medium-italic: "Inter-MediumItalic";
+    /* Oleo Script font */
+    --font-oleo-script: "OleoScript-Regular";
+    --font-oleo-script-bold: "OleoScript-Bold";
+
+    /* Oldenburg font */
+    --font-oldenburg: "Oldenburg-Regular";
 }
