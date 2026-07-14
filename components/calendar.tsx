@@ -1,63 +1,50 @@
 import CalendarTable from "./calendarTable";
-import { useEffect, useState } from "react";
 import Header from "./calendarHeader";
-import { DateType, MonthPropsType } from "@/modules/calendar-bridge/src/CalendarBridge.types";
+import { useCalendar } from "@/contexts/CalendarContext";
+import { TOTAL_DAYS } from "@/utils/constants";
+import { MonthPropsType } from "@/modules/calendar-bridge/src/CalendarBridge.types";
 
-export default function Calendar(
-  {
+const buildArrayMonth = (monthProps: MonthPropsType) => {
+  const table = new Array(TOTAL_DAYS).fill(null);
+
+  for (let index = 0; index < monthProps.length; index++)
+    table[index + monthProps.firstDayWeekPosition - 1] = index + 1;
+
+  return table;
+};
+
+export default function Calendar() {
+  const {
     hijrahDate,
     pickedDay,
-    onPickedDay: setPickedDay,
+    onPickedDay,
     monthProps,
-    onPreviousMonthFn,
-    onNextMonthFn
-  }:
-  {
-    hijrahDate: DateType,
-    monthProps: MonthPropsType,
-    pickedDay: number,
-    onPickedDay: (day: number) => void,
-    onPreviousMonthFn: () => void,
-    onNextMonthFn: () => void
-  }) {
-  const [calendarTable, setCalendarTable] = useState(new Array(35).fill(null));
+    onPreviousMonth,
+    onNextMonth
+  } = useCalendar();
 
-  useEffect(() => {
-    const table = buildArrayMonth();
-    setCalendarTable(table);
-  }, [hijrahDate]);
-
-  const onPrevMonth = () => {
-    setPickedDay(1)
-    onPreviousMonthFn()
+  const onPrevMonthFn = () => {
+    onPickedDay(1)
+    onPreviousMonth()
   }
 
-  const onNextMonth = () => {
-    setPickedDay(1)
-    onNextMonthFn()
+  const onNextMonthFn = () => {
+    onPickedDay(1)
+    onNextMonth()
   }
-
-  const buildArrayMonth = () => {
-    const table = new Array(42).fill(null);
-
-    for (let index = 0; index < monthProps.length; index++)
-      table[index + monthProps.firstDayWeekPosition - 1] = index + 1;
-
-    return table;
-  };
 
   return (
     <>
       <Header
         hijrahDate={hijrahDate}
-        toNextMonth={onNextMonth}
-        toPreviousMonth={onPrevMonth}
+        toNextMonth={onNextMonthFn}
+        toPreviousMonth={onPrevMonthFn}
       />
 
       <CalendarTable
-        calendarArray={calendarTable}
+        calendarArray={buildArrayMonth(monthProps)}
         pickedDay={pickedDay}
-        onDayPressed={(value) => setPickedDay(value)}
+        onDayPressed={(value) => onPickedDay(value)}
       />
     </>
   )
