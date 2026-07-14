@@ -1,18 +1,16 @@
 export type CalendarBridgeModuleEvents = {
-  onDateChange: (params: GenericDateData) => void;
+  onDateChange: () => void;
 };
 
-export type GenericDateData = {
-  numberOfDays: number;
-  positionOfFirstDayInWeek: number;
-  monthInArabic: string;
-  monthInEnglish: string;
-  year: number;
-};
+export type MonthPropsType = {
+  length: number;
+  firstDayWeekPosition: number
+}
 
-export type TodayDateData = {
+export type DateType = {
   day: number;
-  monthInArabic: string;
-  monthInEnglish: string;
+  month: number;
   year: number;
+
+  monthEnStr: string
 };

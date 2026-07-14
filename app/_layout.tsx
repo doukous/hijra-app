@@ -8,16 +8,16 @@ export default function RootLayout() {
 
   return (
     <>
-      <Stack>
-        <Stack.Screen
-          name="(tabs)"
-          options={{
-            headerShown: false,
-            contentStyle: {
-              marginTop: insets.top,
-            },
-          }}
-        />
+      <Stack screenOptions={{
+        headerShown: false,
+        contentStyle: {
+          marginTop: insets.top,
+          marginBottom: insets.bottom,
+          backgroundColor: "white"
+        }
+      }}>
+        <Stack.Screen name="index" />
+        <Stack.Screen name="settings" />
       </Stack>
       <StatusBar style="auto" />
     </>

@@ -2,17 +2,118 @@ package expo.modules.calendarbridge
 
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
+import expo.modules.kotlin.records.Field
+import expo.modules.kotlin.records.Record
 
-import androidx.core.os.bundleOf
-import android.os.Bundle
-import java.time.LocalDateTime
-import java.time.ZoneId
 import java.time.chrono.HijrahDate
 import java.time.temporal.ChronoField
 import java.time.temporal.ChronoUnit
-import java.util.Date
 import java.time.format.DateTimeFormatter
-import java.util.Locale
+import java.time.LocalDate
+
+
+class MonthProps(
+    @Field val length: Int = 0,
+    @Field val firstDayWeekPosition: Int = 1
+): Record
+
+class Date(
+    @Field val day: Int = 1,
+    @Field val month: Int = 1,
+    @Field val year: Int = 1,
+    @Field val monthEnStr: String = ""
+): Record
+
+class DateHelper {
+    companion object {
+        val today = HijrahDate.now()
+
+        val todayDate: Date
+        get() = Date(
+            day = today.get(ChronoField.DAY_OF_MONTH),
+            month = today.get(ChronoField.MONTH_OF_YEAR),
+            year = today.get(ChronoField.YEAR),
+            monthEnStr = DateHelper.formatHijrahDate("MMMM", today)
+        )
+
+        fun getMonthProps(month, year): MonthProps {
+            val hijriDate = hijriDate.of(year, month, 1)
+
+            return Date(
+                length = hijriDate.lengthOfMonth()
+                firstDayWeekPosition = hijrahDate.get(ChronoField.DAY_OF_WEEK)
+            )
+        }
+
+        fun formatHijrahDate(pattern: String, date: HijrahDate): String {
+            val dateFormatter = DateTimeFormatter.ofPattern(pattern)
+            return date.format(dateFormatter)
+        }
+
+        fun formatGregorianDate(pattern: String, date: LocalDate): String {
+            val dateFormatter = DateTimeFormatter.ofPattern(pattern)
+            return date.format(dateFormatter)
+        }
+
+        fun convertGregorianToHijri(day: Int, month: Int, year: Int): Date {
+            val gregorianDate = LocalDate.of(year, month, day)
+            val hijrahDate = HijrahDate.from(gregorianDate)
+
+            return Date(
+                day = hijrahDate.get(ChronoField.DAY_OF_MONTH),
+                month = hijrahDate.get(ChronoField.MONTH_OF_YEAR),
+                year = hijrahDate.get(ChronoField.YEAR),
+
+                monthEnStr = DateHelper.formatHijrahDate("MMMM", hijrahDate)
+            )
+        }
+
+        fun convertHijriToGregorian(day: Int, month: Int, year: Int): Date {
+            val hijrahDate = HijrahDate.of(year, month, day)
+            val gregorianDate = LocalDate.from(hijrahDate)
+
+            return Date(
+                day = gregorianDate.get(ChronoField.DAY_OF_MONTH),
+                month = gregorianDate.get(ChronoField.MONTH_OF_YEAR),
+                year = gregorianDate.get(ChronoField.YEAR),
+
+                monthEnStr = DateHelper.formatGregorianDate("MMMM", gregorianDate)
+            )
+        }
+    }
+
+    var hijrahDate: HijrahDate = HijrahDate.now()
+
+    var gregorianDate: LocalDate
+        get() = LocalDate.from(hijrahDate)
+        set(value) {
+            hijrahDate = HijrahDate.from(value)
+        }
+
+    val monthProps: MonthProps
+        get() = MonthProps(
+            length = hijrahDate.lengthOfMonth(),
+            firstDayWeekPosition = hijrahDate
+                .with(ChronoField.DAY_OF_MONTH, 1)
+                .get(ChronoField.DAY_OF_WEEK)
+        )
+
+    fun setDate(day: Int, month: Int, year: Int) {
+        hijrahDate = HijrahDate.of(year, month, day)
+    }
+
+    fun setToPreviousMonth() {
+        hijrahDate = hijrahDate
+            .minus(1, ChronoUnit.MONTHS)
+            .with(ChronoField.DAY_OF_MONTH, 1)
+    }
+
+    fun setToNextMonth() {
+        hijrahDate = hijrahDate
+            .plus(1, ChronoUnit.MONTHS)
+            .with(ChronoField.DAY_OF_MONTH, 1)
+    }
+}
 
 class CalendarBridgeModule : Module() {
     override fun definition() = ModuleDefinition {
@@ -20,57 +121,71 @@ class CalendarBridgeModule : Module() {
 
         Events("onDateChange")
 
-        Function("getTodayDate") {
-            return@Function getTodayDateData()
+        Property("todayDate") {
+            DateHelper.todayDate
         }
 
-        Function("getGenericDateInfos") {
-            return@Function getGenericDateData()
+        Property("gregorianDate") {
+            val date = Date(
+                day = genericDate.gregorianDate.get(ChronoField.DAY_OF_MONTH),
+                month = genericDate.gregorianDate.get(ChronoField.MONTH_OF_YEAR),
+                year = genericDate.gregorianDate.get(ChronoField.YEAR),
+                monthEnStr = DateHelper
+                    .formatGregorianDate("MMMM", genericDate.gregorianDate)
+            )
+
+            date
+        }
+
+        Property("hijrahDate") {
+            val date = Date(
+                day = genericDate.hijrahDate.get(ChronoField.DAY_OF_MONTH),
+                month = genericDate.hijrahDate.get(ChronoField.MONTH_OF_YEAR),
+                year = genericDate.hijrahDate.get(ChronoField.YEAR),
+                monthEnStr = DateHelper
+                    .formatHijrahDate("MMMM", genericDate.hijrahDate)
+            )
+
+            date
+        }
+
+        Property("monthProps") {
+            genericDate.monthProps
+        }
+
+        Function("getMonthProps") {
+            month: Int, year: Int -> DateHelper
+            .getMonthProps(month, year)
+        }
+
+        Function("setDate") {
+            day: Int, month: Int, year: Int ->
+            genericDate.setDate(day, month, year)
+            this@CalendarBridgeModule.sendEvent("onDateChange")
         }
 
         Function("setToPreviousMonth") {
-            genericDate = genericDate.minus(1, ChronoUnit.MONTHS)
-            this@CalendarBridgeModule.sendEvent("onDateChange", getGenericDateData())
+            genericDate.setToPreviousMonth()
+            this@CalendarBridgeModule.sendEvent("onDateChange")
         }
 
         Function("setToNextMonth") {
-            genericDate = genericDate.plus(1, ChronoUnit.MONTHS)
-            this@CalendarBridgeModule.sendEvent("onDateChange", getGenericDateData())
+            genericDate.setToNextMonth()
+            this@CalendarBridgeModule.sendEvent("onDateChange")
+        }
+
+        Function("convertHijriToGregorian") {
+            day: Int, month: Int, year: Int -> DateHelper.convertHijriToGregorian(
+                day, month, year
+            )
+        }
+
+        Function("convertGregorianToHijri") {
+            day: Int, month: Int, year: Int -> DateHelper.convertGregorianToHijri(
+                day, month, year
+            )
         }
     }
 
-    private val todayDate = HijrahDate.now()
-    private var genericDate = HijrahDate.now().with(ChronoField.DAY_OF_MONTH, 1)
-
-    private fun getDateWithCustomFormat(date: HijrahDate, pattern: String = "d MMMM y", locale: String = "en") : String {
-        val formatter = DateTimeFormatter.ofPattern(pattern).withLocale(Locale.forLanguageTag(locale))
-        return formatter.format(date)
-    }
-
-    private fun getTodayDateData() : Bundle {
-        return bundleOf(
-            "day" to getDateWithCustomFormat(todayDate, "d").toInt(),
-            "monthInArabic" to getDateWithCustomFormat(todayDate, "MMMM", "ar"),
-            "monthInEnglish" to getDateWithCustomFormat(todayDate, "MMMM"),
-            "year" to getDateWithCustomFormat(todayDate, "y").toInt()
-        )
-    }
-
-    private fun getLengthOfMonth() : Int {
-        return genericDate.lengthOfMonth()
-    }
-
-    private fun getPositionOfFirstDayInWeek() : Int {
-        return genericDate.get(ChronoField.DAY_OF_WEEK)
-    }
-
-    private fun getGenericDateData() : Bundle {
-        return bundleOf(
-            "numberOfDays" to getLengthOfMonth(),
-            "positionOfFirstDayInWeek" to getPositionOfFirstDayInWeek(),
-            "monthInArabic" to getDateWithCustomFormat(genericDate, "MMMM", "ar"),
-            "monthInEnglish" to getDateWithCustomFormat(genericDate, "MMMM"),
-            "year" to getDateWithCustomFormat(genericDate, "y").toInt()
-        )
-    }
+    private val genericDate = DateHelper()
 }

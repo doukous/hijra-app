@@ -5,199 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5e5cca5-21e5-4c6b-b1a1-f290edcc6c45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../app/(tabs)/calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/(tabs)/calendar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/9.3.0/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/9.3.0/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/9.3.0/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/9.3.0/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/42505d9dd181fef4eda2f7ca69b29bf0/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/42505d9dd181fef4eda2f7ca69b29bf0/transformed/classes/classes_dex/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/b169c3005295099bd41e669e25b41ba5/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/b169c3005295099bd41e669e25b41ba5/transformed/classes/classes_dex/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/d35e77e759e0bb3472d0ceebb4b8b3c5/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/.transforms/d35e77e759e0bb3472d0ceebb4b8b3c5/transformed/classes/classes_dex/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/generated/source/buildConfig/debug/expo/modules/glancewidget/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/aar_metadata/debug/writeDebugAarMetadata/aar-metadata.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compile_library_classes_jar/debug/bundleLibCompileToJarDebug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compile_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compile_symbol_list/debug/generateDebugRFile/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/drawable_ic_launcher_background.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/drawable_ic_launcher_foreground.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/drawable_rotate_ccw.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/font_roboto_bold.ttf.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_backup_rules.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_data_extraction_rules.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_general_calendar_widget_info.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/compiled_local_resources/debug/compileDebugLibraryResources/out/xml_today_date_widget_info.xml.flat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/debug/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/java_res/debug/processDebugJavaRes/out/META-INF/expo-glance-widget_debug.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/expo/modules/glancewidget/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/local_only_symbol_list/debug/parseDebugLocalResources/R-def.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/manifest_merge_blame_file/debug/processDebugManifest/manifest-merger-blame-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/navigation_json/debug/extractDeepLinksDebug/navigation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/nested_resources_validation_report/debug/generateDebugResources/nestedResourcesValidationReport.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/drawable/rotate_ccw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/font/roboto_bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/general_calendar_widget_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/packaged_res/debug/packageDebugResources/xml/today_date_widget_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/runtime_library_classes_jar/debug/bundleLibRuntimeToJarDebug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/intermediates/symbol_list_with_package_name/debug/generateDebugRFile/package-aware-r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/cacheable/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/classpath-snapshot/shrunk-classpath-snapshot.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/kotlin/compileDebugKotlin/local-state/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/META-INF/expo-glance-widget_debug.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/com/doukous/hijrawidgetdemo/ui/theme/ColorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/com/doukous/hijrawidgetdemo/ui/theme/ThemeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/com/doukous/hijrawidgetdemo/ui/theme/TypeKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/ExpoGlanceWidgetModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$CalendarHeader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$CalendarTable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$CalendarTable$2$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$CalendarTable$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$WidgetContent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$provideGlance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget$provideGlance$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/GeneralCalendar/Widget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/TodayDate/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/TodayDate/Widget$WidgetContent$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/TodayDate/Widget$provideGlance$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/TodayDate/Widget$provideGlance$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/TodayDate/Widget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/data/AppDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/data/DateAlarmReceiver$onReceive$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/data/DateAlarmReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/build/tmp/kotlin-classes/debug/expo/modules/glancewidget/widgets/data/DateHelpersKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/ExpoGlanceWidgetModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/ui/theme/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/ui/theme/Theme.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/ui/theme/Type.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/GeneralCalendar/Receiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/GeneralCalendar/Widget.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/TodayDate/Receiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/TodayDate/Widget.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/data/DateAlarmReceiver.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/java/expo/modules/glancewidget/widgets/data/DateHelpers.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/drawable/rotate_ccw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/font/roboto_bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/xml/general_calendar_widget_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/android/src/main/res/xml/today_date_widget_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/expo-module.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../expo-glance-widget/src/ExpoGlanceWidget.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/(tabs)/_layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/(tabs)/calendar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/(tabs)/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/(tabs)/settings.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../components/calendar/CalendarTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../components/calendar/header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../global.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.3.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.3.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.3.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.3.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/expo/modules/calendarbridge/CalendarBridgeModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/expo/modules/calendarbridge/CalendarBridgeModule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../utils/date-helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../utils/date-helpers.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,10 +30,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3FK3Ls7TEldco9b6SHiNR1A7tBI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -230,14 +52,15 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mohamed/Documents/side-projects/hijra/modules/calendar-bridge/android"
+    "last_opened_file_path": "/home/mohamed/Documents/side-projects/hijra/modules/calendar-bridge",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>

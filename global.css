@@ -3,11 +3,11 @@
 
 @theme {
     /* Open Sans font */
-    --font-opens-sans: "OpenSans-Regular";
-    --font-opens-sans-medium: "OpenSans-Medium";
-    --font-opens-sans-light: "OpenSans-Light";
-    --font-opens-sans-semibold: "OpenSans-SemiBold";
-    --font-opens-sans-bold: "OpenSans-Bold";
+    --font-sans: "OpenSans-Regular";
+    --font-sans-medium: "OpenSans-Medium";
+    --font-sans-light: "OpenSans-Light";
+    --font-sans-semibold: "OpenSans-SemiBold";
+    --font-sans-bold: "OpenSans-Bold";
 
     /* Oleo Script font */
     --font-oleo-script: "OleoScript-Regular";
