@@ -13,12 +13,8 @@ export default function RootLayout() {
         contentStyle: {
           marginTop: insets.top,
           marginBottom: insets.bottom,
-          backgroundColor: "white"
         }
-      }}>
-        <Stack.Screen name="index" />
-        <Stack.Screen name="settings" />
-      </Stack>
+      }} />
       <StatusBar style="auto" />
     </>
   );

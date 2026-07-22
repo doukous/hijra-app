@@ -1,0 +1,2535 @@
+{
+  "generatedAt": "2026-07-22T11:17:08.096Z",
+  "months": {
+    "muharram": {
+      "number": 1,
+      "description": "**Muharram**[a] ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ٱلْمُحَرَّم, romanized: al-Muḥarram) is the first month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). It is one of the four sacred months of the year when warfare is banned. It precedes the month of [Safar](https://en.wikipedia.org/wiki/Safar). The tenth of Muharram is known as [Ashura](https://en.wikipedia.org/wiki/Ashura), an important day of commemoration in [Islam](https://en.wikipedia.org/wiki/Islam). For [Sunni Muslims](https://en.wikipedia.org/wiki/Sunni_Islam), the day commemorates the [parting of the Red Sea](https://en.wikipedia.org/wiki/Crossing_the_Red_Sea) by [Moses](https://en.wikipedia.org/wiki/Moses_in_Islam) and the salvation of the [Israelites](https://en.wikipedia.org/wiki/Israelites), observed through voluntary [fasting](https://en.wikipedia.org/wiki/Fasting) and other permissible expressions of gratitude. By contrast, Ashura is a day of mourning for [Shia](https://en.wikipedia.org/wiki/Shia_Islam) Muslims, who annually commemorate the death of [Husayn ibn Ali](https://en.wikipedia.org/wiki/Husayn_ibn_Ali), grandson of the [Islamic prophet](https://en.wikipedia.org/wiki/Prophets_and_messengers_in_Islam) [Muhammad](https://en.wikipedia.org/wiki/Muhammad) and the third [Shia imam](https://en.wikipedia.org/wiki/Imamate_in_Shia_doctrine). Husayn was killed, alongside most of his relatives and his small retinue, in the [Battle of Karbala](https://en.wikipedia.org/wiki/Battle_of_Karbala) in 680 [CE](https://en.wikipedia.org/wiki/Common_Era) against the army of the [Umayyad caliph](https://en.wikipedia.org/wiki/Umayyad_Caliphate) [Yazid ibn Mu'awiya](https://en.wikipedia.org/wiki/Yazid_I) (r. 680–683). The Shia rituals span the first ten days of Muharram, culminating on Ashura with mourning processions in Shia cities. Also in Muharram, the [Aqsa](https://en.wikipedia.org/wiki/Al-Aqsa_Mosque) mosque in [Jerusalem](https://en.wikipedia.org/wiki/Jerusalem) was initially set as the direction of prayer for early Muslims.",
+      "events": [
+        {
+          "id": "death-of-caliph-umar-1-1",
+          "type": "historique",
+          "title": "Death of Caliph Umar",
+          "hijriDay": 1,
+          "hijriMonth": 1,
+          "details": [
+            "1 Muharram — Death of Caliph Umar (r. 634–644) by injuries from the attack of Persian slave Abu Lu'lu'a Firuz. Sunnis carry rallies on 1 Muharram to commemorate Umar."
+          ]
+        },
+        {
+          "id": "most-mourning-rituals-for-karbala-take-place-during-the-first-ten-days-of-muharr",
+          "type": "historique",
+          "title": "Most mourning rituals for Karbala take place during the first ten days of Muharram, culminating on the tenth with processions in major Shia cities",
+          "hijriDay": 2,
+          "hijriMonth": 1,
+          "details": [
+            "2–10 Muharram — Most mourning rituals for Karbala take place during the first ten days of Muharram, culminating on the tenth with processions in major Shia cities."
+          ]
+        },
+        {
+          "id": "baba-farid-a-punjabi-sufi-saint-died-on-this-day-in-1266-5-1",
+          "type": "historique",
+          "title": "Baba Farid, a Punjabi Sufi saint, died on this day in 1266",
+          "hijriDay": 5,
+          "hijriMonth": 1,
+          "details": [
+            "5 Muharram — Baba Farid, a Punjabi Sufi saint, died on this day in 1266. His death is celebrated (urs) for six days during Muharram, in Pakpattan, Pakistan."
+          ]
+        },
+        {
+          "id": "in-what-became-known-as-the-1782-muharram-rebellion-on-this-day-bengali-muslims-",
+          "type": "historique",
+          "title": "In what became known as the 1782 Muharram Rebellion, on this day Bengali Muslims in Sylhet staged one of the earliest anti-British uprisings in the Indian subcontinent",
+          "hijriDay": 8,
+          "hijriMonth": 1,
+          "details": [
+            "8 Muharram — In what became known as the 1782 Muharram Rebellion, on this day Bengali Muslims in Sylhet staged one of the earliest anti-British uprisings in the Indian subcontinent."
+          ]
+        },
+        {
+          "id": "on-this-day-the-islamic-prophet-muhammad-set-the-aqsa-mosque-in-jerusalem-as-the",
+          "type": "historique",
+          "title": "On this day, the Islamic prophet Muhammad set the Aqsa mosque in Jerusalem as the qibla, towards which early Muslims prayed",
+          "hijriDay": 16,
+          "hijriMonth": 1,
+          "details": [
+            "16 Muharram — On this day, the Islamic prophet Muhammad set the Aqsa mosque in Jerusalem as the qibla, towards which early Muslims prayed. This was superseded later by the ancient Ka'ba sanctuary in Mecca in connection with verse 2:144 of the Quran, the central religious text in Islam."
+          ]
+        },
+        {
+          "id": "arrival-of-the-people-of-the-elephant-in-mecca-a-reference-to-al-fil-17-1",
+          "type": "historique",
+          "title": "Arrival of the \"people of the elephant\" in Mecca, a reference to al-Fil",
+          "hijriDay": 17,
+          "hijriMonth": 1,
+          "details": [
+            "17 Muharram — Arrival of the \"people of the elephant\" in Mecca, a reference to al-Fil (lit. 'the elephant'), a surah (chapter) in the Quran."
+          ]
+        }
+      ]
+    },
+    "safar": {
+      "number": 2,
+      "description": "**Safar** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): صَفَر, romanized: Ṣafar), also spelt as **Safer** in [Turkish](https://en.wikipedia.org/wiki/Turkish_language),[1] is the second month of the lunar [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar).\n\nMost of the Islamic months were named according to ancient Sabean/Sabaic weather conditions; however, since the calendar is lunar, the months shift by about 11 days every solar year, meaning that these conditions do not necessarily correspond to the name of the month.",
+      "events": [
+        {
+          "id": "prisoners-of-karbala-entered-yazids-palace-in-syria-1-2",
+          "type": "historique",
+          "title": "prisoners of Karbalā entered Yazid's Palace in Syria",
+          "hijriDay": 1,
+          "hijriMonth": 2,
+          "details": [
+            "01 Safar 61 AH — prisoners of Karbalā entered Yazid's Palace in Syria"
+          ]
+        },
+        {
+          "id": "death-of-sakina-bint-husayn-youngest-daughter-of-hussain-ibn-ali-and-a-prisoner-",
+          "type": "historique",
+          "title": "death of Sakina bint Husayn, youngest daughter of Hussain ibn Ali and a prisoner of Karbalā",
+          "hijriDay": 10,
+          "hijriMonth": 2,
+          "details": [
+            "10 Safar 117 AH — death of Sakina bint Husayn, youngest daughter of Hussain ibn Ali and a prisoner of Karbalā"
+          ]
+        },
+        {
+          "id": "martyrdom-of-ali-al-ridha-according-to-one-tradition-17-2",
+          "type": "historique",
+          "title": "martyrdom of Ali al-Ridha according to one tradition",
+          "hijriDay": 17,
+          "hijriMonth": 2,
+          "details": [
+            "17 Safar 202 AH — martyrdom of Ali al-Ridha according to one tradition"
+          ]
+        },
+        {
+          "id": "grand-magal-pilgrimage-is-celebrated-at-touba-senegal-commemorating-the-departur",
+          "type": "fete",
+          "title": "Grand Magal pilgrimage is celebrated at Touba, Senegal, commemorating the departure of Cheikh Ahmadou Bamba",
+          "hijriDay": 18,
+          "hijriMonth": 2,
+          "details": [
+            "18 Safar — Grand Magal pilgrimage is celebrated at Touba, Senegal, commemorating the departure of Cheikh Ahmadou Bamba"
+          ]
+        },
+        {
+          "id": "death-anniversary-18-2",
+          "type": "historique",
+          "title": "Death Anniversary",
+          "hijriDay": 18,
+          "hijriMonth": 2,
+          "details": [
+            "18, 19 and 20 Safar — Death Anniversary (urs) of Ali Hajveri is celebrated at Data Darbar, Lahore"
+          ]
+        },
+        {
+          "id": "arbaeen-or-chehlum-x-2",
+          "type": "historique",
+          "title": "Arba'een or Chehlum",
+          "hijriDay": null,
+          "hijriMonth": 2,
+          "details": [
+            "Every 20 or 21 Safar — Arba'een or Chehlum (the 40th day after Ashura)"
+          ]
+        },
+        {
+          "id": "migration-was-started-27-2",
+          "type": "historique",
+          "title": "Migration was started",
+          "hijriDay": 27,
+          "hijriMonth": 2,
+          "details": [
+            "27 Safar 1 AH — Migration was started (Hijrah) from Mecca to Medina by Muhammad with Abu Bakr"
+          ]
+        },
+        {
+          "id": "death-of-salahuddin-al-ayyubi-27-2",
+          "type": "historique",
+          "title": "death of Salahuddin al-Ayyubi",
+          "hijriDay": 27,
+          "hijriMonth": 2,
+          "details": [
+            "27 Safar 589 AH — death of Salahuddin al-Ayyubi"
+          ]
+        },
+        {
+          "id": "akhiri-chahar-shambah-28-2",
+          "type": "historique",
+          "title": "Akhiri Chahar Shambah",
+          "hijriDay": 28,
+          "hijriMonth": 2,
+          "details": [
+            "28 Safar 11 AH — Akhiri Chahar Shambah"
+          ]
+        },
+        {
+          "id": "martyrdom-of-imam-hasan-ibn-ali-grandson-of-muhammad-28-2",
+          "type": "historique",
+          "title": "Martyrdom of Imam Hasan ibn ‘Alī, grandson of Muhammad",
+          "hijriDay": 28,
+          "hijriMonth": 2,
+          "details": [
+            "28 Safar 50 AH — Martyrdom of Imam Hasan ibn ‘Alī, grandson of Muhammad"
+          ]
+        }
+      ]
+    },
+    "rabi-al-awwal": {
+      "number": 3,
+      "description": "**Rabi I** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏رَبِيع الْأَوَّل‎, romanized: Rabīʿ al-ʾAwwal,[a] lit. 'Rabi the First')[b] is the third month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). The name *Rabīʿ al-ʾAwwal* means 'the first [spring](https://en.wikipedia.org/wiki/Spring_(season))', referring to its position in the [pre-Islamic Arabian](https://en.wikipedia.org/wiki/Pre-Islamic_Arabia) calendar.",
+      "events": [
+        {
+          "id": "the-fall-of-the-emirate-of-granada-the-final-muslim-kingdom-of-al-andalus-1-3",
+          "type": "historique",
+          "title": "the fall of the Emirate of Granada, the final Muslim kingdom of al-Andalus",
+          "hijriDay": 1,
+          "hijriMonth": 3,
+          "details": [
+            "1 Rabi I 897 AH — the fall of the Emirate of Granada, the final Muslim kingdom of al-Andalus"
+          ]
+        },
+        {
+          "id": "death-of-imam-hassan-al-askari-twelver-imam-hasan-al-askari-8-3",
+          "type": "historique",
+          "title": "death of Imam Hassan Al-Askari Twelver Imām, Hasan al-‘Askarī",
+          "hijriDay": 8,
+          "hijriMonth": 3,
+          "details": [
+            "8 Rabi I — death of Imam Hassan Al-Askari Twelver Imām, Hasan al-‘Askarī (see: Chup Tazia)"
+          ]
+        },
+        {
+          "id": "eid-e-shuja-9-3",
+          "type": "fete",
+          "title": "Eid e shuja",
+          "hijriDay": 9,
+          "hijriMonth": 3,
+          "details": [
+            "9 Rabi I — Eid e shuja"
+          ]
+        },
+        {
+          "id": "sunni-muslims-observe-mawlid-in-commemoration-of-muhammads-birthday-12-3",
+          "type": "fete",
+          "title": "Sunni Muslims observe Mawlid in commemoration of Muhammad's birthday",
+          "hijriDay": 12,
+          "hijriMonth": 3,
+          "details": [
+            "12 Rabi I — Sunni Muslims observe Mawlid in commemoration of Muhammad's birthday"
+          ]
+        },
+        {
+          "id": "death-of-umm-rubab-13-3",
+          "type": "historique",
+          "title": "Death of Umm Rubab",
+          "hijriDay": 13,
+          "hijriMonth": 3,
+          "details": [
+            "13 Rabi I — Death of Umm Rubab (beloved wife of Imam Hussain)"
+          ]
+        },
+        {
+          "id": "shia-celebrate-the-birthday-of-the-imam-ja-far-al-sadiq-17-3",
+          "type": "fete",
+          "title": "Shia celebrate the birthday of the Imām Ja‘far al-Sādiq",
+          "hijriDay": 17,
+          "hijriMonth": 3,
+          "details": [
+            "17 Rabi I — Shia celebrate the birthday of the Imām Ja‘far al-Sādiq."
+          ]
+        },
+        {
+          "id": "birth-of-umm-kulthum-bint-ali-18-3",
+          "type": "historique",
+          "title": "birth of Umm Kulthum bint Ali",
+          "hijriDay": 18,
+          "hijriMonth": 3,
+          "details": [
+            "18 Rabi I — birth of Umm Kulthum bint Ali"
+          ]
+        },
+        {
+          "id": "death-of-khwaja-sirajuddin-naqshbandi-a-naqshbandi-sufi-shaykh-26-3",
+          "type": "historique",
+          "title": "death of Khwaja Sirajuddin Naqshbandi, a Naqshbandi Sufi shaykh",
+          "hijriDay": 26,
+          "hijriMonth": 3,
+          "details": [
+            "26 Rabi I 1333 AH — death of Khwaja Sirajuddin Naqshbandi, a Naqshbandi Sufi shaykh"
+          ]
+        },
+        {
+          "id": "the-hijra-x-3",
+          "type": "historique",
+          "title": "The Hijra)",
+          "hijriDay": null,
+          "hijriMonth": 3,
+          "details": [
+            "The Hijra) (migration) took place in this month"
+          ]
+        },
+        {
+          "id": "eid-e-zahra-x-3",
+          "type": "fete",
+          "title": "Eid-e-Zahra",
+          "hijriDay": null,
+          "hijriMonth": 3,
+          "details": [
+            "Eid-e-Zahra (a.k.a. Eid e shuja), a celebration of Shi‘ah Muslims"
+          ]
+        },
+        {
+          "id": "marriage-of-muhammad-to-khadijah-bint-khuwaylid-x-3",
+          "type": "historique",
+          "title": "Marriage of Muhammad to Khadijah bint Khuwaylid",
+          "hijriDay": null,
+          "hijriMonth": 3,
+          "details": [
+            "Marriage of Muhammad to Khadijah bint Khuwaylid"
+          ]
+        },
+        {
+          "id": "building-of-the-quba-mosque-x-3",
+          "type": "historique",
+          "title": "Building of the Quba Mosque",
+          "hijriDay": null,
+          "hijriMonth": 3,
+          "details": [
+            "Building of the Quba Mosque (first mosque in Islam)"
+          ]
+        },
+        {
+          "id": "the-week-including-12th-and-17th-is-called-islamic-unity-week-in-iran-to-address",
+          "type": "historique",
+          "title": "The week including 12th and 17th is called Islamic Unity Week in Iran to address both Sunni and Shia views on the birth date of Muhammad",
+          "hijriDay": null,
+          "hijriMonth": 3,
+          "details": [
+            "The week including 12th and 17th is called Islamic Unity Week in Iran to address both Sunni and Shia views on the birth date of Muhammad."
+          ]
+        }
+      ]
+    },
+    "rabi-ath-thani": {
+      "number": 4,
+      "description": "**Rabi II** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏رَبِيع الثَّانِي‎, romanized: Rabīʿ ath-Thānī,[a] lit. 'Rabi the Second', more commonly called ‏رَبِيع الْآخِر‎ Rabīʿ al-ʾĀkhir,[b] lit. 'Rabi the Last')[c] is the fourth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). The name *Rabīʿ ath-Thānī* means \"the second spring\" in [Arabic](https://en.wikipedia.org/wiki/Arabic), referring to its position in the [pre-Islamic Arabian](https://en.wikipedia.org/wiki/Pre-Islamic_Arabia) calendar.",
+      "events": [
+        {
+          "id": "the-birth-of-the-eleventh-imam-hasan-al-askari-8-4",
+          "type": "historique",
+          "title": "the birth of the Eleventh Imam) Hasan al-Askari",
+          "hijriDay": 8,
+          "hijriMonth": 4,
+          "details": [
+            "8 or 10 Rabi II — the birth of the Eleventh Imam) Hasan al-Askari"
+          ]
+        },
+        {
+          "id": "death-of-fatimah-bint-musa-10-4",
+          "type": "historique",
+          "title": "death of Fatimah bint Musa",
+          "hijriDay": 10,
+          "hijriMonth": 4,
+          "details": [
+            "10 or 12 Rabi II — death of Fatimah bint Musa"
+          ]
+        },
+        {
+          "id": "death-of-abdul-qadir-gilani-the-sufi-sheikh-who-is-believed-to-be-the-saint-of-s",
+          "type": "historique",
+          "title": "death of Abdul-Qadir Gilani, the Sufi sheikh who is believed to be the \"saint of saints\"",
+          "hijriDay": 11,
+          "hijriMonth": 4,
+          "details": [
+            "11 Rabi II — death of Abdul-Qadir Gilani, the Sufi sheikh who is believed to be the \"saint of saints\""
+          ]
+        },
+        {
+          "id": "death-of-ahmad-sirhindi-27-4",
+          "type": "historique",
+          "title": "death of Ahmad Sirhindi",
+          "hijriDay": 27,
+          "hijriMonth": 4,
+          "details": [
+            "27 Rabi II — death of Ahmad Sirhindi"
+          ]
+        },
+        {
+          "id": "death-of-ibn-arabi-the-great-philosopher-from-andalus-who-died-and-rests-in-dama",
+          "type": "historique",
+          "title": "death of ibn Arabi, the great philosopher from Andalus who died and rests in Damascus, Syria",
+          "hijriDay": 28,
+          "hijriMonth": 4,
+          "details": [
+            "28 or 29 Rabi II — death of ibn Arabi, the great philosopher from Andalus who died and rests in Damascus, Syria."
+          ]
+        }
+      ]
+    },
+    "jumada-I": {
+      "number": 5,
+      "description": "**Jumada I** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏جُمَادَى ٱلْأُولَى‎, romanized: Jumādā l-ʾŪlā,[a] lit. 'Jumada the First') is the fifth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). Jumada I spans 29 or 30 days. The origin of the month's name is theorized by some as coming from the word *jamād* ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): جماد), meaning \"arid, dry, or cold\",[1] denoting the dry and parched land and hence the dry months of the [pre-Islamic Arabian](https://en.wikipedia.org/wiki/Pre-Islamic_Arabia) calendar. *Jumādā* ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): جُمَادَى) may also be related to a verb meaning \"to freeze\", and another account relates that water would freeze during this time of year. The secondary name *Jumādā l-ʾŪlā* may possibly mean \"to take charge with, commend, entrust, commit or care during the arid or cold month\".[1] However, this explanation is rejected by some as *Jumādā al-ʾŪlā* is a lunar month that does not coincide with seasons as solar months do.\n\nIn Turkish, the name of the month is *cemaziyelevvel* (from [Ottoman Turkish](https://en.wikipedia.org/wiki/Ottoman_Turkish_language): جمادی الاول, romanized: cemaziyü'l-evvel);[2][3] it was abbreviated as جا *ca* in [Ottoman Turkish](https://en.wikipedia.org/wiki/Ottoman_Turkish).[2][4]",
+      "events": [
+        {
+          "id": "the-battle-of-muta-took-place-in-the-village-of-the-same-name-1-5",
+          "type": "historique",
+          "title": "the Battle of Mu'ta took place in the village of the same name",
+          "hijriDay": 1,
+          "hijriMonth": 5,
+          "details": [
+            "On 1 Jumada I 8 AH (September 629) — the Battle of Mu'ta took place in the village of the same name (in present-day Jordan), in which the Muslim army (dispatched by Muhammad) fought against the army of the Byzantine Empire and their Ghassanid vassals reportedly in retribution for the murder of a Muslim emissary by a Ghassanid chief, Shurahbil ibn Amr. The battle was won by the Byzantines, and amongst the losses the Muslims incurred were three of the most prominent Companions of Muhammad): Zayd ibn Haritha (his adopted son, known as the fourth person to become a Muslim); Ja‘far ibn Abi Talib (his cousin), and ‘Abd Allah ibn Rawaha (present at the second pledge at al-‘Aqaba), whom Muhammad had specifically appointed to be generals of the Muslim army in the battle, so that if one of them should be killed, the other would take his place."
+          ]
+        },
+        {
+          "id": "zaynab-bint-ali-was-born-5-5",
+          "type": "historique",
+          "title": "Zaynab bint Ali was born",
+          "hijriDay": 5,
+          "hijriMonth": 5,
+          "details": [
+            "On 5 Jumada I — Zaynab bint Ali was born."
+          ]
+        },
+        {
+          "id": "amir-al-kulal-died-8-5",
+          "type": "historique",
+          "title": "Amir al-Kulal died",
+          "hijriDay": 8,
+          "hijriMonth": 5,
+          "details": [
+            "On 8 Jumada I — Amir al-Kulal died. Amir Kulal."
+          ]
+        },
+        {
+          "id": "fatima-daughter-of-muhammad-died-in-medina-at-the-young-age-of-23-years-accordin",
+          "type": "historique",
+          "title": "Fatima, daughter of Muhammad, died in Medina at the young age of 23 years according to Sunni Muslim sources",
+          "hijriDay": 10,
+          "hijriMonth": 5,
+          "details": [
+            "On 10 Jumada I 11 AH — Fatima, daughter of Muhammad, died in Medina at the young age of 23 years according to Sunni Muslim sources."
+          ]
+        },
+        {
+          "id": "fatima-was-buried-by-her-husband-ali-13-5",
+          "type": "historique",
+          "title": "Fatima was buried by her husband Ali",
+          "hijriDay": 13,
+          "hijriMonth": 5,
+          "details": [
+            "On 13 Jumada I 11 AH — Fatima was buried by her husband Ali."
+          ]
+        },
+        {
+          "id": "ali-ibn-husayn-was-born-15-5",
+          "type": "historique",
+          "title": "Ali ibn Husayn was born",
+          "hijriDay": 15,
+          "hijriMonth": 5,
+          "details": [
+            "On 15 Jumada I — Ali ibn Husayn was born."
+          ]
+        },
+        {
+          "id": "mehmed-ii-conquered-constantinople-20-5",
+          "type": "historique",
+          "title": "Mehmed II conquered Constantinople",
+          "hijriDay": 20,
+          "hijriMonth": 5,
+          "details": [
+            "On 20 Jumada I 857 — Mehmed II conquered Constantinople."
+          ]
+        }
+      ]
+    },
+    "jumada-II": {
+      "number": 6,
+      "description": "**Jumada II** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏جُمَادَى ٱلثَّانِيَة‎, romanized: Jumādā th-Thāniya,[a] lit. 'Jumada the Second', more commonly called ‏جُمَادَى ٱلْآخِرَة‎, Jumādā l-ʾĀkhira,[b] lit. 'Jumada the Last')[c] is the sixth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). The word *jamād* (‏جماد‎), from which the name of the month is derived, is used to denote dry, parched land, a land devoid of rain. *Jumādā* (جمادى) may also be related to a verb meaning 'to freeze', and another account relates that water would freeze in [pre-Islamic Arabia](https://en.wikipedia.org/wiki/Pre-Islamic_Arabia) during this time of year.",
+      "events": [
+        {
+          "id": "death-of-muhammads-daughter-fatima-in-11-ah-3-6",
+          "type": "historique",
+          "title": "death of Muhammad's daughter Fatima in 11 AH",
+          "hijriDay": 3,
+          "hijriMonth": 6,
+          "details": [
+            "3 Jumada II — death of Muhammad's daughter Fatima in 11 AH."
+          ]
+        },
+        {
+          "id": "death-of-harun-al-rashid-the-fifth-abbasid-caliph-3-6",
+          "type": "historique",
+          "title": "death of Harun al-Rashid, the fifth Abbasid caliph",
+          "hijriDay": 3,
+          "hijriMonth": 6,
+          "details": [
+            "3 Jumada II — death of Harun al-Rashid, the fifth Abbasid caliph."
+          ]
+        },
+        {
+          "id": "victory-of-ali-in-the-battle-of-the-camel-10-6",
+          "type": "historique",
+          "title": "victory of Ali in the Battle of the Camel",
+          "hijriDay": 10,
+          "hijriMonth": 6,
+          "details": [
+            "10 Jumada II — victory of Ali in the Battle of the Camel."
+          ]
+        },
+        {
+          "id": "death-of-umm-al-banin-13-6",
+          "type": "historique",
+          "title": "death of Umm al-Banin",
+          "hijriDay": 13,
+          "hijriMonth": 6,
+          "details": [
+            "13 Jumada II — death of Umm al-Banin (the mother of Abbas ibn Ali)."
+          ]
+        },
+        {
+          "id": "birth-of-muhammads-daughter-fatima-zahra-20-6",
+          "type": "historique",
+          "title": "birth of Muhammad's daughter Fatima Zahra",
+          "hijriDay": 20,
+          "hijriMonth": 6,
+          "details": [
+            "20 Jumada II — birth of Muhammad's daughter Fatima Zahra."
+          ]
+        },
+        {
+          "id": "death-of-caliph-abu-bakr-22-6",
+          "type": "historique",
+          "title": "death of Caliph Abu Bakr",
+          "hijriDay": 22,
+          "hijriMonth": 6,
+          "details": [
+            "22 Jumada II — death of Caliph Abu Bakr."
+          ]
+        },
+        {
+          "id": "saladin-became-amir-of-egypt-25-6",
+          "type": "historique",
+          "title": "Saladin became amir of Egypt",
+          "hijriDay": 25,
+          "hijriMonth": 6,
+          "details": [
+            "25 Jumada II of 564 AH — Saladin became amir of Egypt."
+          ]
+        }
+      ]
+    },
+    "rajab": {
+      "number": 7,
+      "description": "**Rajab** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): رَجَب) is the seventh month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). The lexical definition of the [classical Arabic](https://en.wikipedia.org/wiki/Classical_Arabic) verb *rajaba* is \"to respect\",[1] which could also mean \"be awe or be in fear\", of which Rajab is a derivative.\n\nThis month is regarded as one of the four sacred months (including [Muharram](https://en.wikipedia.org/wiki/Muharram), [Dhu'l-Qa'da](https://en.wikipedia.org/wiki/Dhu'l-Qa'da) and [Dhu'l-Hijja](https://en.wikipedia.org/wiki/Dhu'l-Hijja)) in Islam in which battles are prohibited. The [pre-Islamic Arabs](https://en.wikipedia.org/wiki/Pre-Islamic_Arabia) also considered warfare to be blasphemous during these four months.[1]\n\nMuslims believe Rajab is the month in which [‘Alī ibn Abī Tālib](https://en.wikipedia.org/wiki/‘Alī_ibn_Abī_Tālib), the first Shia Imam and the fourth [Rashidun caliph](https://en.wikipedia.org/wiki/Rashidun_caliph), was born.",
+      "events": [
+        {
+          "id": "the-battle-of-tabouk-took-place-in-rajab-9-ah-x-7",
+          "type": "historique",
+          "title": "The Battle of Tabouk took place in Rajab, 9 AH",
+          "hijriDay": null,
+          "hijriMonth": 7,
+          "details": [
+            "The Battle of Tabouk took place in Rajab, 9 AH (October 630)."
+          ]
+        },
+        {
+          "id": "the-second-pledge-at-al-aqabah-took-place-in-rajab-x-7",
+          "type": "historique",
+          "title": "The Second pledge at al-Aqabah took place in Rajab",
+          "hijriDay": null,
+          "hijriMonth": 7,
+          "details": [
+            "The Second pledge at al-Aqabah took place in Rajab."
+          ]
+        },
+        {
+          "id": "many-sufi-followers-of-the-chishti-tariqa-6-7",
+          "type": "fete",
+          "title": "Many Sufi followers of the Chishti tariqa",
+          "hijriDay": 6,
+          "hijriMonth": 7,
+          "details": [
+            "6 Rajab — Many Sufi followers of the Chishti tariqa (path) celebrate the anniversary of Khawaja Moinuddin Chishti."
+          ]
+        },
+        {
+          "id": "twelvers-observe-the-festival-of-imam-musa-al-kazim-in-dedication-of-musa-al-kad",
+          "type": "fete",
+          "title": "Twelvers observe the Festival of Imam Musa al-Kazim in dedication of Musā' al-Kādhim",
+          "hijriDay": 7,
+          "hijriMonth": 7,
+          "details": [
+            "7 Rajab — Twelvers observe the Festival of Imam Musa al-Kazim in dedication of Musā' al-Kādhim. This is so as to avoid missing celebrating the birth of the seventh imam, which took place in Safar."
+          ]
+        },
+        {
+          "id": "in-india-and-pakistan-koonday-22-7",
+          "type": "historique",
+          "title": "In India and Pakistan, Koonday",
+          "hijriDay": 22,
+          "hijriMonth": 7,
+          "details": [
+            "22 Rajab — In India and Pakistan, Koonday (tablecloth dinner) is organized. It is an occasion for Muslims to discuss Allah and the Ahlul Bayt and to strengthen ties among the Sunni Sufi community with love and compassion."
+          ]
+        },
+        {
+          "id": "event-of-isra-and-miraj-27-7",
+          "type": "fete",
+          "title": "event of Isra and Mi'raj",
+          "hijriDay": 27,
+          "hijriMonth": 7,
+          "details": [
+            "27 Rajab — event of Isra and Mi'raj."
+          ]
+        },
+        {
+          "id": "conquest-of-jerusalem-by-the-ayyubids-27-7",
+          "type": "historique",
+          "title": "Conquest of Jerusalem) by the Ayyubids",
+          "hijriDay": 27,
+          "hijriMonth": 7,
+          "details": [
+            "27 Rajab 583 AH — Conquest of Jerusalem) by the Ayyubids"
+          ]
+        },
+        {
+          "id": "muhammad-al-baqir-1-7",
+          "type": "historique",
+          "title": "Muhammad al-Baqir",
+          "hijriDay": 1,
+          "hijriMonth": 7,
+          "details": [
+            "1 Rajab — Muhammad al-Baqir"
+          ]
+        },
+        {
+          "id": "khwaja-banda-nawaz-4-7",
+          "type": "historique",
+          "title": "Khwaja Banda Nawaz",
+          "hijriDay": 4,
+          "hijriMonth": 7,
+          "details": [
+            "4 Rajab — Khwaja Banda Nawaz"
+          ]
+        },
+        {
+          "id": "ali-al-hadi-5-7",
+          "type": "historique",
+          "title": "‘Alī al-Hadī",
+          "hijriDay": 5,
+          "hijriMonth": 7,
+          "details": [
+            "5 Rajab — ‘Alī al-Hadī"
+          ]
+        },
+        {
+          "id": "ali-al-asghar-9-7",
+          "type": "historique",
+          "title": "‘Alī al-Asghar",
+          "hijriDay": 9,
+          "hijriMonth": 7,
+          "details": [
+            "9 Rajab — ‘Alī al-Asghar"
+          ]
+        },
+        {
+          "id": "muhammad-al-taqi-12-7",
+          "type": "historique",
+          "title": "Muhammad al-Taqī",
+          "hijriDay": 12,
+          "hijriMonth": 7,
+          "details": [
+            "12 Rajab — Muhammad al-Taqī"
+          ]
+        },
+        {
+          "id": "13-rajab-ali-ibn-abi-talib-x-7",
+          "type": "historique",
+          "title": "13 Rajab: ‘Alī ibn Abī Tālib",
+          "hijriDay": null,
+          "hijriMonth": 7,
+          "details": [
+            "13 Rajab: ‘Alī ibn Abī Tālib"
+          ]
+        },
+        {
+          "id": "muin-al-din-chishti-14-7",
+          "type": "historique",
+          "title": "Mu'in al-Din Chishti",
+          "hijriDay": 14,
+          "hijriMonth": 7,
+          "details": [
+            "14 Rajab — Mu'in al-Din Chishti"
+          ]
+        },
+        {
+          "id": "sakina-bint-hussain-20-7",
+          "type": "historique",
+          "title": "Sakina bint Hussain",
+          "hijriDay": 20,
+          "hijriMonth": 7,
+          "details": [
+            "20 Rajab — Sakina bint Hussain"
+          ]
+        },
+        {
+          "id": "ali-al-naqi-twelver-imam-uwais-al-qarni-3-7",
+          "type": "historique",
+          "title": "‘Alī al-Naqī, Twelver Imam & Uwais al-Qarni",
+          "hijriDay": 3,
+          "hijriMonth": 7,
+          "details": [
+            "3 Rajab — ‘Alī al-Naqī, Twelver Imam & Uwais al-Qarni"
+          ]
+        },
+        {
+          "id": "nazim-al-haqqani-a-turkish-cypriot-sufi-muslim-sheikh-and-spiritual-leader-of-th",
+          "type": "historique",
+          "title": "Nazim Al-Haqqani, a Turkish Cypriot Sufi Muslim sheikh and spiritual leader of the Naqshbandi tariqa",
+          "hijriDay": 8,
+          "hijriMonth": 7,
+          "details": [
+            "8 Rajab — Nazim Al-Haqqani, a Turkish Cypriot Sufi Muslim sheikh and spiritual leader of the Naqshbandi tariqa."
+          ]
+        },
+        {
+          "id": "akhundzada-saif-ur-rahman-mubarak-the-founder-of-the-naqshbandi-mujaddidi-saifia",
+          "type": "historique",
+          "title": "Akhundzada Saif-ur-Rahman Mubarak, the founder of the Naqshbandi Mujaddidi Saifia Tariqa",
+          "hijriDay": 14,
+          "hijriMonth": 7,
+          "details": [
+            "14 Rajab — Akhundzada Saif-ur-Rahman Mubarak, the founder of the Naqshbandi Mujaddidi Saifia Tariqa."
+          ]
+        },
+        {
+          "id": "zainab-bint-ali-15-7",
+          "type": "historique",
+          "title": "Zainab bint Ali",
+          "hijriDay": 15,
+          "hijriMonth": 7,
+          "details": [
+            "15 Rajab — Zainab bint Ali"
+          ]
+        },
+        {
+          "id": "muawiya-first-caliph-of-the-umayyad-caliphate-22-7",
+          "type": "historique",
+          "title": "Mu'awiya, first caliph of the Umayyad Caliphate",
+          "hijriDay": 22,
+          "hijriMonth": 7,
+          "details": [
+            "22 Rajab — Mu'awiya, first caliph of the Umayyad Caliphate"
+          ]
+        },
+        {
+          "id": "musa-al-kadhim-seventh-twelver-imam-25-7",
+          "type": "historique",
+          "title": "Musā' al-Kādhim, seventh Twelver Imam",
+          "hijriDay": 25,
+          "hijriMonth": 7,
+          "details": [
+            "25 Rajab — Musā' al-Kādhim, seventh Twelver Imam"
+          ]
+        },
+        {
+          "id": "al-nawawi-shafiite-jurist-and-hadith-scholar-25-7",
+          "type": "historique",
+          "title": "Al-Nawawi, Shafi'ite jurist and hadith scholar",
+          "hijriDay": 25,
+          "hijriMonth": 7,
+          "details": [
+            "25 Rajab — Al-Nawawi, Shafi'ite jurist and hadith scholar"
+          ]
+        },
+        {
+          "id": "abu-talib-ibn-abdul-muttalib-uncle-of-muhammad-and-father-of-ali-26-7",
+          "type": "historique",
+          "title": "Abu Talib ibn Abdul Muttalib, uncle of Muhammad and father of Ali",
+          "hijriDay": 26,
+          "hijriMonth": 7,
+          "details": [
+            "26 Rajab — Abu Talib ibn Abdul Muttalib, uncle of Muhammad and father of Ali"
+          ]
+        }
+      ]
+    },
+    "shaban": {
+      "number": 8,
+      "description": "**Shaʽban** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): شَعْبَان *Šaʿbān*) is the eighth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). It is called the month of 'separation', as the word means 'to disperse' or 'to separate' because the [pre-Islamic Arabs](https://en.wikipedia.org/wiki/Religion_in_pre-Islamic_Arabia) used to disperse in search of water.[1]\n\nThe fifteenth night of this month is [Mid-Sha'ban](https://en.wikipedia.org/wiki/Mid-Sha'ban),[2] which coincides with the celebration of [Shab-e-Barat](https://en.wikipedia.org/wiki/Shab-e-Barat) in Muslim communities all over Asia.\n\nSha'ban is the last [lunar month](https://en.wikipedia.org/wiki/Lunar_month) before [Ramadan](https://en.wikipedia.org/wiki/Ramadan), and so Muslims determine in it when the first day of Ramadan fasting will be. In the second [Hijri year](https://en.wikipedia.org/wiki/Hijri_year) (624 CE), [fasting during Ramadan](https://en.wikipedia.org/wiki/Fasting_during_Ramadan) was made obligatory during this month.[1]",
+      "events": [
+        {
+          "id": "birth-of-zaynab-bint-ali-1-8",
+          "type": "historique",
+          "title": "birth of Zaynab bint Ali",
+          "hijriDay": 1,
+          "hijriMonth": 8,
+          "details": [
+            "01 Sha'ban — birth of Zaynab bint Ali"
+          ]
+        },
+        {
+          "id": "death-of-2-8",
+          "type": "historique",
+          "title": "death of",
+          "hijriDay": 2,
+          "hijriMonth": 8,
+          "details": [
+            "02 Sha'ban — death of (Imam Azam) Abu Hanifa"
+          ]
+        },
+        {
+          "id": "birth-of-husayn-ibn-ali-3-8",
+          "type": "historique",
+          "title": "birth of Husayn ibn Ali",
+          "hijriDay": 3,
+          "hijriMonth": 8,
+          "details": [
+            "03 Sha'ban — birth of Husayn ibn Ali"
+          ]
+        },
+        {
+          "id": "birth-of-abbas-ibn-ali-4-8",
+          "type": "historique",
+          "title": "birth of Abbas ibn Ali",
+          "hijriDay": 4,
+          "hijriMonth": 8,
+          "details": [
+            "04 Sha'ban — birth of Abbas ibn Ali"
+          ]
+        },
+        {
+          "id": "birth-of-ali-ibn-husayn-5-8",
+          "type": "historique",
+          "title": "birth of Ali ibn Husayn",
+          "hijriDay": 5,
+          "hijriMonth": 8,
+          "details": [
+            "05 Sha'ban — birth of Ali ibn Husayn"
+          ]
+        },
+        {
+          "id": "death-of-fizza-the-hand-maiden-5-8",
+          "type": "historique",
+          "title": "death of Fizza, the hand-maiden",
+          "hijriDay": 5,
+          "hijriMonth": 8,
+          "details": [
+            "05 Sha'ban — death of Fizza, the hand-maiden (Qaneez) of Fatimah"
+          ]
+        },
+        {
+          "id": "birth-of-qasim-ibn-hasan-7-8",
+          "type": "historique",
+          "title": "birth of Qasim ibn Hasan",
+          "hijriDay": 7,
+          "hijriMonth": 8,
+          "details": [
+            "07 Sha'ban — birth of Qasim ibn Hasan"
+          ]
+        },
+        {
+          "id": "birth-of-ali-al-akbar-ibn-husayn-11-8",
+          "type": "historique",
+          "title": "birth of Ali al-Akbar ibn Husayn",
+          "hijriDay": 11,
+          "hijriMonth": 8,
+          "details": [
+            "11 Sha'ban — birth of Ali al-Akbar ibn Husayn"
+          ]
+        },
+        {
+          "id": "holiday-known-as-laylat-al-baraat-or-nisfu-shaban-15-8",
+          "type": "fete",
+          "title": "holiday known as Laylat al-Bara'at or Nisfu Sha'ban",
+          "hijriDay": 15,
+          "hijriMonth": 8,
+          "details": [
+            "15 Sha'ban — holiday known as Laylat al-Bara'at or Nisfu Sha'ban; birth of Muhammad al-Mahdi"
+          ]
+        },
+        {
+          "id": "death-of-lal-shahbaz-qalandar-21-8",
+          "type": "historique",
+          "title": "death of Lal Shahbaz Qalandar",
+          "hijriDay": 21,
+          "hijriMonth": 8,
+          "details": [
+            "21 Sha'ban — death of Lal Shahbaz Qalandar"
+          ]
+        },
+        {
+          "id": "death-of-muhammad-usman-damani-22-8",
+          "type": "historique",
+          "title": "death of Muhammad Usman Damani",
+          "hijriDay": 22,
+          "hijriMonth": 8,
+          "details": [
+            "22 Sha'ban — death of Muhammad Usman Damani"
+          ]
+        },
+        {
+          "id": "death-of-sayyad-laal-shah-hamdani-27-8",
+          "type": "historique",
+          "title": "death of Sayyad Laal Shah Hamdani",
+          "hijriDay": 27,
+          "hijriMonth": 8,
+          "details": [
+            "27 Sha'ban — death of Sayyad Laal Shah Hamdani"
+          ]
+        }
+      ]
+    },
+    "ramadan": {
+      "number": 9,
+      "description": "**Ramadan**[a][b] is the ninth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). It is observed by [Muslims](https://en.wikipedia.org/wiki/Muslim) worldwide as a month of [fasting](https://en.wikipedia.org/wiki/Fasting) (*sawm*), communal [prayer](https://en.wikipedia.org/wiki/Prayer) (*salah*), reflection, study of the Quran, charity, and strengthening community ties.[5] It is also the month in which the [Quran](https://en.wikipedia.org/wiki/Quran) is believed to have been revealed to the [Islamic prophet](https://en.wikipedia.org/wiki/Prophets_of_Islam) [Muhammad](https://en.wikipedia.org/wiki/Muhammad), known as [Laylat al-Qadr](https://en.wikipedia.org/wiki/Night_of_Power). The annual observance of Ramadan is regarded as one of the [five pillars of Islam](https://en.wikipedia.org/wiki/Five_pillars_of_Islam)[6] and lasts 29 to 30 days, from one sighting of the [crescent moon](https://en.wikipedia.org/wiki/Hilal_(crescent_moon)) to the next.[7][8]\n\nFasting from dawn to sunset is obligatory (*fard*) for all Muslims who have reached puberty,[9] and who are not [acutely](https://en.wikipedia.org/wiki/Acute_illness) or [chronically ill](https://en.wikipedia.org/wiki/Chronic_illness), [traveling](https://en.wikipedia.org/wiki/Travel), [elderly](https://en.wikipedia.org/wiki/Old_age), [breastfeeding](https://en.wikipedia.org/wiki/Breastfeeding), [pregnant](https://en.wikipedia.org/wiki/Pregnancy), or [menstruating](https://en.wikipedia.org/wiki/Menstruation_in_Islam).[10] The predawn meal is *suhur*, and the nightly feast that breaks the fast is *iftar*.[11][12] Although rulings (*fatawa*) have been issued that Muslims who live in regions with a [midnight sun](https://en.wikipedia.org/wiki/Midnight_sun) or [polar night](https://en.wikipedia.org/wiki/Polar_night) should follow the timetable of [Mecca](https://en.wikipedia.org/wiki/Mecca),[13] it is common practice to follow the timetable of the closest country in which night can be distinguished from day.[14][15][16]\n\nThe spiritual rewards (*thawab*) of fasting are believed to be multiplied during Ramadan.[17] Accordingly, during the hours of fasting, Muslims refrain not only from food and drink, but also from all behavior deemed to be [sinful in Islam](https://en.wikipedia.org/wiki/Islamic_views_on_sin).[18][19]",
+      "events": []
+    },
+    "shawwal": {
+      "number": 10,
+      "description": "**Shawwal** ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): شَوَّال, romanized: Shawwāl) is the tenth month of the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar). It comes after [Ramadan](https://en.wikipedia.org/wiki/Ramadan) and before [Dhu'l-Qa'da](https://en.wikipedia.org/wiki/Dhu'l-Qa'da).\n\n*Shawwāl* stems from the Arabic verb *shāla* (شَالَ), which means to 'lift or carry',[1] generally to take or move things from one place to another.",
+      "events": [
+        {
+          "id": "eid-al-fitr-is-celebrated-throughout-the-muslim-world-for-the-first-three-days-o",
+          "type": "fete",
+          "title": "Eid al-Fitr is celebrated throughout the Muslim World for the first three days of this month",
+          "hijriDay": null,
+          "hijriMonth": 10,
+          "details": [
+            "Every 1st day of Shawwāl — Eid al-Fitr is celebrated throughout the Muslim World for the first three days of this month (but celebrations last until the 29th/30th day as per the festive season's duration)."
+          ]
+        },
+        {
+          "id": "early-muslims-took-part-in-the-battle-of-uhud-7-10",
+          "type": "historique",
+          "title": "early Muslims took part in the Battle of Uhud",
+          "hijriDay": 7,
+          "hijriMonth": 10,
+          "details": [
+            "7 Shawwāl 3 AH — early Muslims took part in the Battle of Uhud."
+          ]
+        },
+        {
+          "id": "birth-of-ahmed-raza-khan-10-10",
+          "type": "historique",
+          "title": "birth of Ahmed Raza Khan",
+          "hijriDay": 10,
+          "hijriMonth": 10,
+          "details": [
+            "10 Shawwal — birth of Ahmed Raza Khan."
+          ]
+        },
+        {
+          "id": "primary-traditionist-of-the-sunni-muslims-muhammad-al-bukhari-was-born-in-194-ah",
+          "type": "historique",
+          "title": "primary traditionist of the Sunni Muslims, Muhammad al-Bukhari, was born in 194 AH",
+          "hijriDay": 13,
+          "hijriMonth": 10,
+          "details": [
+            "13 Shawwāl — primary traditionist of the Sunni Muslims, Muhammad al-Bukhari, was born in 194 AH."
+          ]
+        },
+        {
+          "id": "urs-of-sufi-mystic-and-poet-amir-khusro-18-10",
+          "type": "fete",
+          "title": "urs of Sufi Mystic And Poet Amir Khusro",
+          "hijriDay": 18,
+          "hijriMonth": 10,
+          "details": [
+            "18 Shawwal — urs of Sufi Mystic And Poet Amir Khusro."
+          ]
+        },
+        {
+          "id": "death-of-haji-dost-muhammad-qandhari-an-afghan-sufi-master-of-naqshbandi-traditi",
+          "type": "historique",
+          "title": "death of Haji Dost Muhammad Qandhari, an Afghan Sufi master of Naqshbandi tradition",
+          "hijriDay": 22,
+          "hijriMonth": 10,
+          "details": [
+            "22 Shawwāl 1284 AH — death of Haji Dost Muhammad Qandhari, an Afghan Sufi master of Naqshbandi tradition."
+          ]
+        },
+        {
+          "id": "martyrdom-of-imam-ja-far-as-sadiq-25-10",
+          "type": "historique",
+          "title": "martyrdom of Imām Ja‘far as-Sādiq",
+          "hijriDay": 25,
+          "hijriMonth": 10,
+          "details": [
+            "25 Shawwāl 148 AH — martyrdom of Imām Ja‘far as-Sādiq."
+          ]
+        }
+      ]
+    },
+    "dhul-qada": {
+      "number": 11,
+      "description": "**Dhu'l-Qa'da**[a] ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏ذُو ٱلْقَعْدَة‎, *Ḏū l-Qaʿda*, IPA: [ðu‿l.qaʕ.da]) is the eleventh month in the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar).\n\nIt could possibly mean \"possessor or owner of the sitting and seating place\" - the space occupied while sitting or the manner of the sitting, pose or posture.\n\nIt is one of the four [sacred months](https://en.wikipedia.org/wiki/Sacred_months) in Islam during which warfare is prohibited, hence the name \"Master of [Truces](https://en.wikipedia.org/wiki/Truce)\".",
+      "events": [
+        {
+          "id": "the-muslims-took-part-in-the-battle-of-the-trench-5-11",
+          "type": "historique",
+          "title": "the Muslims took part in the Battle of the Trench",
+          "hijriDay": 5,
+          "hijriMonth": 11,
+          "details": [
+            "5 AH — the Muslims took part in the Battle of the Trench."
+          ]
+        },
+        {
+          "id": "truce-of-hudaybiya-6-11",
+          "type": "historique",
+          "title": "Truce of Hudaybiya",
+          "hijriDay": 6,
+          "hijriMonth": 11,
+          "details": [
+            "6 AH — Truce of Hudaybiya."
+          ]
+        },
+        {
+          "id": "pledge-of-the-tree-6-11",
+          "type": "historique",
+          "title": "Pledge of the Tree",
+          "hijriDay": 6,
+          "hijriMonth": 11,
+          "details": [
+            "6 AH — Pledge of the Tree."
+          ]
+        },
+        {
+          "id": "the-first-pilgrimage-the-return-to-mecca-for-the-performance-of-umrah-by-muhamma",
+          "type": "historique",
+          "title": "The first pilgrimage - the return to Mecca for the performance of Umrah by Muhammad and his companions",
+          "hijriDay": 7,
+          "hijriMonth": 11,
+          "details": [
+            "7 AH — The first pilgrimage - the return to Mecca for the performance of Umrah by Muhammad and his companions."
+          ]
+        },
+        {
+          "id": "birth-anniversary-of-fatima-bint-musa-1-11",
+          "type": "historique",
+          "title": "birth anniversary of Fatima bint Musa",
+          "hijriDay": 1,
+          "hijriMonth": 11,
+          "details": [
+            "1 Dhu'l-Qa'da — birth anniversary of Fatima bint Musa."
+          ]
+        },
+        {
+          "id": "treaty-of-hudaybiya-1-11",
+          "type": "historique",
+          "title": "Treaty of Hudaybiya",
+          "hijriDay": 1,
+          "hijriMonth": 11,
+          "details": [
+            "1 Dhu'l-Qa'da — Treaty of Hudaybiya."
+          ]
+        },
+        {
+          "id": "hajj-was-made-incumbent-upon-muslims-in-8-ah-8-11",
+          "type": "historique",
+          "title": "Hajj was made incumbent upon Muslims in 8 AH",
+          "hijriDay": 8,
+          "hijriMonth": 11,
+          "details": [
+            "8 Dhu'l-Qa'da — Hajj was made incumbent upon Muslims in 8 AH."
+          ]
+        },
+        {
+          "id": "birth-anniversary-of-imam-ali-ibn-musa-al-rida-the-eighth-twelver-imam-11-11",
+          "type": "historique",
+          "title": "birth anniversary of Imam Ali ibn Musa al-Rida, the eighth Twelver Imam)",
+          "hijriDay": 11,
+          "hijriMonth": 11,
+          "details": [
+            "11 Dhu'l-Qa'da — birth anniversary of Imam Ali ibn Musa al-Rida, the eighth Twelver Imam)."
+          ]
+        },
+        {
+          "id": "martyrdom-of-imam-ali-al-rida-according-to-one-tradition-23-11",
+          "type": "historique",
+          "title": "martyrdom of Imam Ali al-Rida according to one tradition",
+          "hijriDay": 23,
+          "hijriMonth": 11,
+          "details": [
+            "23 Dhu'l-Qa'da — martyrdom of Imam Ali al-Rida according to one tradition."
+          ]
+        },
+        {
+          "id": "arabic-the-day-earth-was-laid-beneath-the-kaba-and-the-birth-date-of-ibrahim-and",
+          "type": "historique",
+          "title": "Arabic: يوم دحو الارض, the day earth was laid beneath the Ka'ba, and the birth date of Ibrahim and Jesus",
+          "hijriDay": 25,
+          "hijriMonth": 11,
+          "details": [
+            "25 Dhu'l-Qa'da — Arabic: يوم دحو الارض, the day earth was laid beneath the Ka'ba, and the birth date of Ibrahim and Jesus."
+          ]
+        },
+        {
+          "id": "martyrdom-of-imam-muhammad-ibn-ali-at-taqi-al-jawad-the-ninth-twelver-imam-29-11",
+          "type": "historique",
+          "title": "martyrdom of Imam Muhammad ibn Ali at-Taqi al-Jawad, the ninth Twelver Imam",
+          "hijriDay": 29,
+          "hijriMonth": 11,
+          "details": [
+            "29 Dhu'l-Qa'da — martyrdom of Imam Muhammad ibn Ali at-Taqi al-Jawad, the ninth Twelver Imam."
+          ]
+        }
+      ]
+    },
+    "dhul-hijja": {
+      "number": 12,
+      "description": "**Dhu'l-Hijja**[a] ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): ‏ذُو ٱلْحِجَّة‎, romanized: Ḏū l-Ḥijja IPA: [ðu‿l.ħid͡ʒːa]) is the twelfth and final month in the [Islamic calendar](https://en.wikipedia.org/wiki/Islamic_calendar).[1] Being one of the four [sacred months](https://en.wikipedia.org/wiki/Sacred_months) during which war is forbidden, it is the month in which the *Ḥajj* ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): حج, lit. 'pilgrimage') takes place as well as [Eid al-Adha](https://en.wikipedia.org/wiki/Eid_al-Adha) ([Arabic](https://en.wikipedia.org/wiki/Arabic_language): عيد الأضحى, lit. 'the Festival of the Sacrifice').\n\nThe [Arabic](https://en.wikipedia.org/wiki/Arabic_language) name of the month, *Dhu'l-Hijja*, means \"Possessor of the Pilgrimage\" or \"The Month of the Pilgrimage\".[1] During this month, Muslim pilgrims from all around the world congregate at [Mecca](https://en.wikipedia.org/wiki/Mecca) to visit the [Kaaba](https://en.wikipedia.org/wiki/Kaaba). The [Hajj rites](https://en.wikipedia.org/wiki/Hajj#Rites) begin on the eighth day and continue for four or five days. The [Day of Arafah](https://en.wikipedia.org/wiki/Day_of_Arafah) takes place on the ninth of the month. [Eid al-Adha](https://en.wikipedia.org/wiki/Eid_al-Adha), the \"Festival of the Sacrifice\", begins on the tenth day and ends on the thirteenth day.[1]",
+      "events": [
+        {
+          "id": "assassination-of-uthman-the-prominent-companion-and-son-in-law-of-muhammad-and-k",
+          "type": "historique",
+          "title": "assassination of Uthman, the prominent companion and son-in-law of Muhammad and Khadija",
+          "hijriDay": 18,
+          "hijriMonth": 12,
+          "details": [
+            "18 Dhu'l-Hijja — assassination of Uthman, the prominent companion and son-in-law of Muhammad and Khadija. Husband of Ruqayya and Umm Kulthum."
+          ]
+        },
+        {
+          "id": "nikah-1-12",
+          "type": "historique",
+          "title": "nikah",
+          "hijriDay": 1,
+          "hijriMonth": 12,
+          "details": [
+            "01 Dhu'l-Hijja — nikah (marriage) of Ali and Fatima – AH 2 (24 February AD 624)."
+          ]
+        },
+        {
+          "id": "martyrdom-of-twelver-and-isma-ili-shi-ite-imam-muhammad-al-baqir-ah-114-7-12",
+          "type": "historique",
+          "title": "martyrdom of Twelver and Ismāʿīlī Shīʿite Imām), Muhammad al-Bāqir – AH 114",
+          "hijriDay": 7,
+          "hijriMonth": 12,
+          "details": [
+            "07 Dhu'l-Hijja — martyrdom of Twelver and Ismāʿīlī Shīʿite Imām), Muhammad al-Bāqir – AH 114."
+          ]
+        },
+        {
+          "id": "husayn-ibn-ali-began-his-journey-to-karbala-from-mecca-8-12",
+          "type": "historique",
+          "title": "Husayn ibn ʿAlī began his journey to Karbalāʾ from Mecca",
+          "hijriDay": 8,
+          "hijriMonth": 12,
+          "details": [
+            "08 Dhu'l-Hijja — Husayn ibn ʿAlī began his journey to Karbalāʾ from Mecca."
+          ]
+        },
+        {
+          "id": "martyrdom-of-muslim-ibn-aqil-and-hani-ibn-urwah-in-kufah-9-12",
+          "type": "historique",
+          "title": "martyrdom of Muslim ibn ʿAqīl and Hani ibn Urwah in Kufah",
+          "hijriDay": 9,
+          "hijriMonth": 12,
+          "details": [
+            "09 Dhu'l-Hijja — martyrdom of Muslim ibn ʿAqīl and Hani ibn Urwah in Kufah. It is also a day of supererogatory fasting – AH 60."
+          ]
+        },
+        {
+          "id": "assassination-of-uthman-12-12",
+          "type": "historique",
+          "title": "assassination of Uthman",
+          "hijriDay": 12,
+          "hijriMonth": 12,
+          "details": [
+            "12 Dhu'l-Hijja or 18 Dhu'l-Hijja — assassination of Uthman."
+          ]
+        },
+        {
+          "id": "birth-of-twelver-imam-ali-al-naqi-ah-214-disputed-date-15-12",
+          "type": "historique",
+          "title": "birth of Twelver Imām, ʿAlī al-Naqī – AH 214 [Disputed date]",
+          "hijriDay": 15,
+          "hijriMonth": 12,
+          "details": [
+            "15 Dhu'l-Hijja — birth of Twelver Imām, ʿAlī al-Naqī – AH 214 [Disputed date]."
+          ]
+        },
+        {
+          "id": "shi-ite-muslims-celebrate-the-event-of-ghadir-khumm-ah-10-18-12",
+          "type": "fete",
+          "title": "Shīʿite Muslims celebrate the event of Ghadir Khumm – AH 10",
+          "hijriDay": 18,
+          "hijriMonth": 12,
+          "details": [
+            "18 Dhu'l-Hijja — Shīʿite Muslims celebrate the event of Ghadir Khumm – AH 10."
+          ]
+        },
+        {
+          "id": "fatimah-went-to-alis-house-after-their-marriage-19-12",
+          "type": "historique",
+          "title": "Fatimah went to Ali's house after their marriage",
+          "hijriDay": 19,
+          "hijriMonth": 12,
+          "details": [
+            "19 Dhu'l-Hijja — Fatimah went to Ali's house after their marriage."
+          ]
+        },
+        {
+          "id": "martyrdom-of-meesam-tammar-friend-of-ali-ah-60-23-12",
+          "type": "historique",
+          "title": "martyrdom of Meesam Tammar, friend of Ali – AH 60",
+          "hijriDay": 23,
+          "hijriMonth": 12,
+          "details": [
+            "23 Dhu'l-Hijja — martyrdom of Meesam Tammar, friend of Ali – AH 60."
+          ]
+        },
+        {
+          "id": "martyrdom-of-two-sons-of-muslim-ibn-aqil-in-kufa-ah-60-23-12",
+          "type": "historique",
+          "title": "martyrdom of two sons of Muslim ibn ʿAqīl in Kufa – AH 60",
+          "hijriDay": 23,
+          "hijriMonth": 12,
+          "details": [
+            "23 Dhu'l-Hijja — martyrdom of two sons of Muslim ibn ʿAqīl in Kufa – AH 60."
+          ]
+        },
+        {
+          "id": "event-of-the-mubahala-took-place-24-12",
+          "type": "fete",
+          "title": "event of the mubahala took place",
+          "hijriDay": 24,
+          "hijriMonth": 12,
+          "details": [
+            "24 Dhu'l-Hijja — event of the mubahala took place ('Eid al-Mubahilah)."
+          ]
+        },
+        {
+          "id": "some-historians-mention-that-the-hadith-ahl-al-kisa-event-was-also-on-the-same-d",
+          "type": "historique",
+          "title": "some historians mention that the Hadith, Ahl al-Kisa', event was also on the same day prior to Muhammad setting out for Mubahila",
+          "hijriDay": 24,
+          "hijriMonth": 12,
+          "details": [
+            "24 Dhu'l-Hijja — some historians mention that the Hadith, Ahl al-Kisa', event was also on the same day prior to Muhammad setting out for Mubahila."
+          ]
+        },
+        {
+          "id": "supplication-day-and-giving-of-alms-with-the-ring-by-ali-24-12",
+          "type": "historique",
+          "title": "supplication day and giving of alms with the ring by Ali",
+          "hijriDay": 24,
+          "hijriMonth": 12,
+          "details": [
+            "24 Dhu'l-Hijja — supplication day and giving of alms with the ring by Ali. In reply verse, \"Verily your Walee is Allah; and His Messenger and those who establish salah, and pay zakat while they be in Rukooʿ. (Maa-Idah: 55)\" was revealed."
+          ]
+        },
+        {
+          "id": "sura-al-insan-or-hal-ata-or-dahar-which-records-the-giving-of-alms-to-orphans-th",
+          "type": "historique",
+          "title": "Sura Al-Insan or Hal Ata, or Dahar, which records the giving of alms to orphans, the destitute and travellers by Fatimah Hasan and Husain was revealed",
+          "hijriDay": 25,
+          "hijriMonth": 12,
+          "details": [
+            "25 Dhu'l-Hijja — Sura Al-Insan or Hal Ata, or Dahar, which records the giving of alms to orphans, the destitute and travellers by Fatimah Hasan and Husain was revealed."
+          ]
+        },
+        {
+          "id": "ali-becomes-the-caliph-of-islam-ah-35-25-12",
+          "type": "historique",
+          "title": "Ali becomes the Caliph of Islam – AH 35",
+          "hijriDay": 25,
+          "hijriMonth": 12,
+          "details": [
+            "25 Dhu'l-Hijja — Ali becomes the Caliph of Islam – AH 35.[citation needed]"
+          ]
+        }
+      ]
+    }
+  },
+  "eventsIndex": [
+    {
+      "id": "death-of-caliph-umar-1-1",
+      "type": "historique",
+      "title": "Death of Caliph Umar",
+      "hijriDay": 1,
+      "hijriMonth": 1,
+      "details": [
+        "1 Muharram — Death of Caliph Umar (r. 634–644) by injuries from the attack of Persian slave Abu Lu'lu'a Firuz. Sunnis carry rallies on 1 Muharram to commemorate Umar."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "most-mourning-rituals-for-karbala-take-place-during-the-first-ten-days-of-muharr",
+      "type": "historique",
+      "title": "Most mourning rituals for Karbala take place during the first ten days of Muharram, culminating on the tenth with processions in major Shia cities",
+      "hijriDay": 2,
+      "hijriMonth": 1,
+      "details": [
+        "2–10 Muharram — Most mourning rituals for Karbala take place during the first ten days of Muharram, culminating on the tenth with processions in major Shia cities."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "baba-farid-a-punjabi-sufi-saint-died-on-this-day-in-1266-5-1",
+      "type": "historique",
+      "title": "Baba Farid, a Punjabi Sufi saint, died on this day in 1266",
+      "hijriDay": 5,
+      "hijriMonth": 1,
+      "details": [
+        "5 Muharram — Baba Farid, a Punjabi Sufi saint, died on this day in 1266. His death is celebrated (urs) for six days during Muharram, in Pakpattan, Pakistan."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "in-what-became-known-as-the-1782-muharram-rebellion-on-this-day-bengali-muslims-",
+      "type": "historique",
+      "title": "In what became known as the 1782 Muharram Rebellion, on this day Bengali Muslims in Sylhet staged one of the earliest anti-British uprisings in the Indian subcontinent",
+      "hijriDay": 8,
+      "hijriMonth": 1,
+      "details": [
+        "8 Muharram — In what became known as the 1782 Muharram Rebellion, on this day Bengali Muslims in Sylhet staged one of the earliest anti-British uprisings in the Indian subcontinent."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "on-this-day-the-islamic-prophet-muhammad-set-the-aqsa-mosque-in-jerusalem-as-the",
+      "type": "historique",
+      "title": "On this day, the Islamic prophet Muhammad set the Aqsa mosque in Jerusalem as the qibla, towards which early Muslims prayed",
+      "hijriDay": 16,
+      "hijriMonth": 1,
+      "details": [
+        "16 Muharram — On this day, the Islamic prophet Muhammad set the Aqsa mosque in Jerusalem as the qibla, towards which early Muslims prayed. This was superseded later by the ancient Ka'ba sanctuary in Mecca in connection with verse 2:144 of the Quran, the central religious text in Islam."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "arrival-of-the-people-of-the-elephant-in-mecca-a-reference-to-al-fil-17-1",
+      "type": "historique",
+      "title": "Arrival of the \"people of the elephant\" in Mecca, a reference to al-Fil",
+      "hijriDay": 17,
+      "hijriMonth": 1,
+      "details": [
+        "17 Muharram — Arrival of the \"people of the elephant\" in Mecca, a reference to al-Fil (lit. 'the elephant'), a surah (chapter) in the Quran."
+      ],
+      "monthKey": "muharram"
+    },
+    {
+      "id": "prisoners-of-karbala-entered-yazids-palace-in-syria-1-2",
+      "type": "historique",
+      "title": "prisoners of Karbalā entered Yazid's Palace in Syria",
+      "hijriDay": 1,
+      "hijriMonth": 2,
+      "details": [
+        "01 Safar 61 AH — prisoners of Karbalā entered Yazid's Palace in Syria"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "death-of-sakina-bint-husayn-youngest-daughter-of-hussain-ibn-ali-and-a-prisoner-",
+      "type": "historique",
+      "title": "death of Sakina bint Husayn, youngest daughter of Hussain ibn Ali and a prisoner of Karbalā",
+      "hijriDay": 10,
+      "hijriMonth": 2,
+      "details": [
+        "10 Safar 117 AH — death of Sakina bint Husayn, youngest daughter of Hussain ibn Ali and a prisoner of Karbalā"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "martyrdom-of-ali-al-ridha-according-to-one-tradition-17-2",
+      "type": "historique",
+      "title": "martyrdom of Ali al-Ridha according to one tradition",
+      "hijriDay": 17,
+      "hijriMonth": 2,
+      "details": [
+        "17 Safar 202 AH — martyrdom of Ali al-Ridha according to one tradition"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "grand-magal-pilgrimage-is-celebrated-at-touba-senegal-commemorating-the-departur",
+      "type": "fete",
+      "title": "Grand Magal pilgrimage is celebrated at Touba, Senegal, commemorating the departure of Cheikh Ahmadou Bamba",
+      "hijriDay": 18,
+      "hijriMonth": 2,
+      "details": [
+        "18 Safar — Grand Magal pilgrimage is celebrated at Touba, Senegal, commemorating the departure of Cheikh Ahmadou Bamba"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "death-anniversary-18-2",
+      "type": "historique",
+      "title": "Death Anniversary",
+      "hijriDay": 18,
+      "hijriMonth": 2,
+      "details": [
+        "18, 19 and 20 Safar — Death Anniversary (urs) of Ali Hajveri is celebrated at Data Darbar, Lahore"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "arbaeen-or-chehlum-x-2",
+      "type": "historique",
+      "title": "Arba'een or Chehlum",
+      "hijriDay": null,
+      "hijriMonth": 2,
+      "details": [
+        "Every 20 or 21 Safar — Arba'een or Chehlum (the 40th day after Ashura)"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "migration-was-started-27-2",
+      "type": "historique",
+      "title": "Migration was started",
+      "hijriDay": 27,
+      "hijriMonth": 2,
+      "details": [
+        "27 Safar 1 AH — Migration was started (Hijrah) from Mecca to Medina by Muhammad with Abu Bakr"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "death-of-salahuddin-al-ayyubi-27-2",
+      "type": "historique",
+      "title": "death of Salahuddin al-Ayyubi",
+      "hijriDay": 27,
+      "hijriMonth": 2,
+      "details": [
+        "27 Safar 589 AH — death of Salahuddin al-Ayyubi"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "akhiri-chahar-shambah-28-2",
+      "type": "historique",
+      "title": "Akhiri Chahar Shambah",
+      "hijriDay": 28,
+      "hijriMonth": 2,
+      "details": [
+        "28 Safar 11 AH — Akhiri Chahar Shambah"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "martyrdom-of-imam-hasan-ibn-ali-grandson-of-muhammad-28-2",
+      "type": "historique",
+      "title": "Martyrdom of Imam Hasan ibn ‘Alī, grandson of Muhammad",
+      "hijriDay": 28,
+      "hijriMonth": 2,
+      "details": [
+        "28 Safar 50 AH — Martyrdom of Imam Hasan ibn ‘Alī, grandson of Muhammad"
+      ],
+      "monthKey": "safar"
+    },
+    {
+      "id": "the-fall-of-the-emirate-of-granada-the-final-muslim-kingdom-of-al-andalus-1-3",
+      "type": "historique",
+      "title": "the fall of the Emirate of Granada, the final Muslim kingdom of al-Andalus",
+      "hijriDay": 1,
+      "hijriMonth": 3,
+      "details": [
+        "1 Rabi I 897 AH — the fall of the Emirate of Granada, the final Muslim kingdom of al-Andalus"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "death-of-imam-hassan-al-askari-twelver-imam-hasan-al-askari-8-3",
+      "type": "historique",
+      "title": "death of Imam Hassan Al-Askari Twelver Imām, Hasan al-‘Askarī",
+      "hijriDay": 8,
+      "hijriMonth": 3,
+      "details": [
+        "8 Rabi I — death of Imam Hassan Al-Askari Twelver Imām, Hasan al-‘Askarī (see: Chup Tazia)"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "eid-e-shuja-9-3",
+      "type": "fete",
+      "title": "Eid e shuja",
+      "hijriDay": 9,
+      "hijriMonth": 3,
+      "details": [
+        "9 Rabi I — Eid e shuja"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "sunni-muslims-observe-mawlid-in-commemoration-of-muhammads-birthday-12-3",
+      "type": "fete",
+      "title": "Sunni Muslims observe Mawlid in commemoration of Muhammad's birthday",
+      "hijriDay": 12,
+      "hijriMonth": 3,
+      "details": [
+        "12 Rabi I — Sunni Muslims observe Mawlid in commemoration of Muhammad's birthday"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "death-of-umm-rubab-13-3",
+      "type": "historique",
+      "title": "Death of Umm Rubab",
+      "hijriDay": 13,
+      "hijriMonth": 3,
+      "details": [
+        "13 Rabi I — Death of Umm Rubab (beloved wife of Imam Hussain)"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "shia-celebrate-the-birthday-of-the-imam-ja-far-al-sadiq-17-3",
+      "type": "fete",
+      "title": "Shia celebrate the birthday of the Imām Ja‘far al-Sādiq",
+      "hijriDay": 17,
+      "hijriMonth": 3,
+      "details": [
+        "17 Rabi I — Shia celebrate the birthday of the Imām Ja‘far al-Sādiq."
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "birth-of-umm-kulthum-bint-ali-18-3",
+      "type": "historique",
+      "title": "birth of Umm Kulthum bint Ali",
+      "hijriDay": 18,
+      "hijriMonth": 3,
+      "details": [
+        "18 Rabi I — birth of Umm Kulthum bint Ali"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "death-of-khwaja-sirajuddin-naqshbandi-a-naqshbandi-sufi-shaykh-26-3",
+      "type": "historique",
+      "title": "death of Khwaja Sirajuddin Naqshbandi, a Naqshbandi Sufi shaykh",
+      "hijriDay": 26,
+      "hijriMonth": 3,
+      "details": [
+        "26 Rabi I 1333 AH — death of Khwaja Sirajuddin Naqshbandi, a Naqshbandi Sufi shaykh"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "the-hijra-x-3",
+      "type": "historique",
+      "title": "The Hijra)",
+      "hijriDay": null,
+      "hijriMonth": 3,
+      "details": [
+        "The Hijra) (migration) took place in this month"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "eid-e-zahra-x-3",
+      "type": "fete",
+      "title": "Eid-e-Zahra",
+      "hijriDay": null,
+      "hijriMonth": 3,
+      "details": [
+        "Eid-e-Zahra (a.k.a. Eid e shuja), a celebration of Shi‘ah Muslims"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "marriage-of-muhammad-to-khadijah-bint-khuwaylid-x-3",
+      "type": "historique",
+      "title": "Marriage of Muhammad to Khadijah bint Khuwaylid",
+      "hijriDay": null,
+      "hijriMonth": 3,
+      "details": [
+        "Marriage of Muhammad to Khadijah bint Khuwaylid"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "building-of-the-quba-mosque-x-3",
+      "type": "historique",
+      "title": "Building of the Quba Mosque",
+      "hijriDay": null,
+      "hijriMonth": 3,
+      "details": [
+        "Building of the Quba Mosque (first mosque in Islam)"
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "the-week-including-12th-and-17th-is-called-islamic-unity-week-in-iran-to-address",
+      "type": "historique",
+      "title": "The week including 12th and 17th is called Islamic Unity Week in Iran to address both Sunni and Shia views on the birth date of Muhammad",
+      "hijriDay": null,
+      "hijriMonth": 3,
+      "details": [
+        "The week including 12th and 17th is called Islamic Unity Week in Iran to address both Sunni and Shia views on the birth date of Muhammad."
+      ],
+      "monthKey": "rabi-al-awwal"
+    },
+    {
+      "id": "the-birth-of-the-eleventh-imam-hasan-al-askari-8-4",
+      "type": "historique",
+      "title": "the birth of the Eleventh Imam) Hasan al-Askari",
+      "hijriDay": 8,
+      "hijriMonth": 4,
+      "details": [
+        "8 or 10 Rabi II — the birth of the Eleventh Imam) Hasan al-Askari"
+      ],
+      "monthKey": "rabi-ath-thani"
+    },
+    {
+      "id": "death-of-fatimah-bint-musa-10-4",
+      "type": "historique",
+      "title": "death of Fatimah bint Musa",
+      "hijriDay": 10,
+      "hijriMonth": 4,
+      "details": [
+        "10 or 12 Rabi II — death of Fatimah bint Musa"
+      ],
+      "monthKey": "rabi-ath-thani"
+    },
+    {
+      "id": "death-of-abdul-qadir-gilani-the-sufi-sheikh-who-is-believed-to-be-the-saint-of-s",
+      "type": "historique",
+      "title": "death of Abdul-Qadir Gilani, the Sufi sheikh who is believed to be the \"saint of saints\"",
+      "hijriDay": 11,
+      "hijriMonth": 4,
+      "details": [
+        "11 Rabi II — death of Abdul-Qadir Gilani, the Sufi sheikh who is believed to be the \"saint of saints\""
+      ],
+      "monthKey": "rabi-ath-thani"
+    },
+    {
+      "id": "death-of-ahmad-sirhindi-27-4",
+      "type": "historique",
+      "title": "death of Ahmad Sirhindi",
+      "hijriDay": 27,
+      "hijriMonth": 4,
+      "details": [
+        "27 Rabi II — death of Ahmad Sirhindi"
+      ],
+      "monthKey": "rabi-ath-thani"
+    },
+    {
+      "id": "death-of-ibn-arabi-the-great-philosopher-from-andalus-who-died-and-rests-in-dama",
+      "type": "historique",
+      "title": "death of ibn Arabi, the great philosopher from Andalus who died and rests in Damascus, Syria",
+      "hijriDay": 28,
+      "hijriMonth": 4,
+      "details": [
+        "28 or 29 Rabi II — death of ibn Arabi, the great philosopher from Andalus who died and rests in Damascus, Syria."
+      ],
+      "monthKey": "rabi-ath-thani"
+    },
+    {
+      "id": "the-battle-of-muta-took-place-in-the-village-of-the-same-name-1-5",
+      "type": "historique",
+      "title": "the Battle of Mu'ta took place in the village of the same name",
+      "hijriDay": 1,
+      "hijriMonth": 5,
+      "details": [
+        "On 1 Jumada I 8 AH (September 629) — the Battle of Mu'ta took place in the village of the same name (in present-day Jordan), in which the Muslim army (dispatched by Muhammad) fought against the army of the Byzantine Empire and their Ghassanid vassals reportedly in retribution for the murder of a Muslim emissary by a Ghassanid chief, Shurahbil ibn Amr. The battle was won by the Byzantines, and amongst the losses the Muslims incurred were three of the most prominent Companions of Muhammad): Zayd ibn Haritha (his adopted son, known as the fourth person to become a Muslim); Ja‘far ibn Abi Talib (his cousin), and ‘Abd Allah ibn Rawaha (present at the second pledge at al-‘Aqaba), whom Muhammad had specifically appointed to be generals of the Muslim army in the battle, so that if one of them should be killed, the other would take his place."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "zaynab-bint-ali-was-born-5-5",
+      "type": "historique",
+      "title": "Zaynab bint Ali was born",
+      "hijriDay": 5,
+      "hijriMonth": 5,
+      "details": [
+        "On 5 Jumada I — Zaynab bint Ali was born."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "amir-al-kulal-died-8-5",
+      "type": "historique",
+      "title": "Amir al-Kulal died",
+      "hijriDay": 8,
+      "hijriMonth": 5,
+      "details": [
+        "On 8 Jumada I — Amir al-Kulal died. Amir Kulal."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "fatima-daughter-of-muhammad-died-in-medina-at-the-young-age-of-23-years-accordin",
+      "type": "historique",
+      "title": "Fatima, daughter of Muhammad, died in Medina at the young age of 23 years according to Sunni Muslim sources",
+      "hijriDay": 10,
+      "hijriMonth": 5,
+      "details": [
+        "On 10 Jumada I 11 AH — Fatima, daughter of Muhammad, died in Medina at the young age of 23 years according to Sunni Muslim sources."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "fatima-was-buried-by-her-husband-ali-13-5",
+      "type": "historique",
+      "title": "Fatima was buried by her husband Ali",
+      "hijriDay": 13,
+      "hijriMonth": 5,
+      "details": [
+        "On 13 Jumada I 11 AH — Fatima was buried by her husband Ali."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "ali-ibn-husayn-was-born-15-5",
+      "type": "historique",
+      "title": "Ali ibn Husayn was born",
+      "hijriDay": 15,
+      "hijriMonth": 5,
+      "details": [
+        "On 15 Jumada I — Ali ibn Husayn was born."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "mehmed-ii-conquered-constantinople-20-5",
+      "type": "historique",
+      "title": "Mehmed II conquered Constantinople",
+      "hijriDay": 20,
+      "hijriMonth": 5,
+      "details": [
+        "On 20 Jumada I 857 — Mehmed II conquered Constantinople."
+      ],
+      "monthKey": "jumada-I"
+    },
+    {
+      "id": "death-of-muhammads-daughter-fatima-in-11-ah-3-6",
+      "type": "historique",
+      "title": "death of Muhammad's daughter Fatima in 11 AH",
+      "hijriDay": 3,
+      "hijriMonth": 6,
+      "details": [
+        "3 Jumada II — death of Muhammad's daughter Fatima in 11 AH."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "death-of-harun-al-rashid-the-fifth-abbasid-caliph-3-6",
+      "type": "historique",
+      "title": "death of Harun al-Rashid, the fifth Abbasid caliph",
+      "hijriDay": 3,
+      "hijriMonth": 6,
+      "details": [
+        "3 Jumada II — death of Harun al-Rashid, the fifth Abbasid caliph."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "victory-of-ali-in-the-battle-of-the-camel-10-6",
+      "type": "historique",
+      "title": "victory of Ali in the Battle of the Camel",
+      "hijriDay": 10,
+      "hijriMonth": 6,
+      "details": [
+        "10 Jumada II — victory of Ali in the Battle of the Camel."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "death-of-umm-al-banin-13-6",
+      "type": "historique",
+      "title": "death of Umm al-Banin",
+      "hijriDay": 13,
+      "hijriMonth": 6,
+      "details": [
+        "13 Jumada II — death of Umm al-Banin (the mother of Abbas ibn Ali)."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "birth-of-muhammads-daughter-fatima-zahra-20-6",
+      "type": "historique",
+      "title": "birth of Muhammad's daughter Fatima Zahra",
+      "hijriDay": 20,
+      "hijriMonth": 6,
+      "details": [
+        "20 Jumada II — birth of Muhammad's daughter Fatima Zahra."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "death-of-caliph-abu-bakr-22-6",
+      "type": "historique",
+      "title": "death of Caliph Abu Bakr",
+      "hijriDay": 22,
+      "hijriMonth": 6,
+      "details": [
+        "22 Jumada II — death of Caliph Abu Bakr."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "saladin-became-amir-of-egypt-25-6",
+      "type": "historique",
+      "title": "Saladin became amir of Egypt",
+      "hijriDay": 25,
+      "hijriMonth": 6,
+      "details": [
+        "25 Jumada II of 564 AH — Saladin became amir of Egypt."
+      ],
+      "monthKey": "jumada-II"
+    },
+    {
+      "id": "the-battle-of-tabouk-took-place-in-rajab-9-ah-x-7",
+      "type": "historique",
+      "title": "The Battle of Tabouk took place in Rajab, 9 AH",
+      "hijriDay": null,
+      "hijriMonth": 7,
+      "details": [
+        "The Battle of Tabouk took place in Rajab, 9 AH (October 630)."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "the-second-pledge-at-al-aqabah-took-place-in-rajab-x-7",
+      "type": "historique",
+      "title": "The Second pledge at al-Aqabah took place in Rajab",
+      "hijriDay": null,
+      "hijriMonth": 7,
+      "details": [
+        "The Second pledge at al-Aqabah took place in Rajab."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "many-sufi-followers-of-the-chishti-tariqa-6-7",
+      "type": "fete",
+      "title": "Many Sufi followers of the Chishti tariqa",
+      "hijriDay": 6,
+      "hijriMonth": 7,
+      "details": [
+        "6 Rajab — Many Sufi followers of the Chishti tariqa (path) celebrate the anniversary of Khawaja Moinuddin Chishti."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "twelvers-observe-the-festival-of-imam-musa-al-kazim-in-dedication-of-musa-al-kad",
+      "type": "fete",
+      "title": "Twelvers observe the Festival of Imam Musa al-Kazim in dedication of Musā' al-Kādhim",
+      "hijriDay": 7,
+      "hijriMonth": 7,
+      "details": [
+        "7 Rajab — Twelvers observe the Festival of Imam Musa al-Kazim in dedication of Musā' al-Kādhim. This is so as to avoid missing celebrating the birth of the seventh imam, which took place in Safar."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "in-india-and-pakistan-koonday-22-7",
+      "type": "historique",
+      "title": "In India and Pakistan, Koonday",
+      "hijriDay": 22,
+      "hijriMonth": 7,
+      "details": [
+        "22 Rajab — In India and Pakistan, Koonday (tablecloth dinner) is organized. It is an occasion for Muslims to discuss Allah and the Ahlul Bayt and to strengthen ties among the Sunni Sufi community with love and compassion."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "event-of-isra-and-miraj-27-7",
+      "type": "fete",
+      "title": "event of Isra and Mi'raj",
+      "hijriDay": 27,
+      "hijriMonth": 7,
+      "details": [
+        "27 Rajab — event of Isra and Mi'raj."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "conquest-of-jerusalem-by-the-ayyubids-27-7",
+      "type": "historique",
+      "title": "Conquest of Jerusalem) by the Ayyubids",
+      "hijriDay": 27,
+      "hijriMonth": 7,
+      "details": [
+        "27 Rajab 583 AH — Conquest of Jerusalem) by the Ayyubids"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "muhammad-al-baqir-1-7",
+      "type": "historique",
+      "title": "Muhammad al-Baqir",
+      "hijriDay": 1,
+      "hijriMonth": 7,
+      "details": [
+        "1 Rajab — Muhammad al-Baqir"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "khwaja-banda-nawaz-4-7",
+      "type": "historique",
+      "title": "Khwaja Banda Nawaz",
+      "hijriDay": 4,
+      "hijriMonth": 7,
+      "details": [
+        "4 Rajab — Khwaja Banda Nawaz"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "ali-al-hadi-5-7",
+      "type": "historique",
+      "title": "‘Alī al-Hadī",
+      "hijriDay": 5,
+      "hijriMonth": 7,
+      "details": [
+        "5 Rajab — ‘Alī al-Hadī"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "ali-al-asghar-9-7",
+      "type": "historique",
+      "title": "‘Alī al-Asghar",
+      "hijriDay": 9,
+      "hijriMonth": 7,
+      "details": [
+        "9 Rajab — ‘Alī al-Asghar"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "muhammad-al-taqi-12-7",
+      "type": "historique",
+      "title": "Muhammad al-Taqī",
+      "hijriDay": 12,
+      "hijriMonth": 7,
+      "details": [
+        "12 Rajab — Muhammad al-Taqī"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "13-rajab-ali-ibn-abi-talib-x-7",
+      "type": "historique",
+      "title": "13 Rajab: ‘Alī ibn Abī Tālib",
+      "hijriDay": null,
+      "hijriMonth": 7,
+      "details": [
+        "13 Rajab: ‘Alī ibn Abī Tālib"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "muin-al-din-chishti-14-7",
+      "type": "historique",
+      "title": "Mu'in al-Din Chishti",
+      "hijriDay": 14,
+      "hijriMonth": 7,
+      "details": [
+        "14 Rajab — Mu'in al-Din Chishti"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "sakina-bint-hussain-20-7",
+      "type": "historique",
+      "title": "Sakina bint Hussain",
+      "hijriDay": 20,
+      "hijriMonth": 7,
+      "details": [
+        "20 Rajab — Sakina bint Hussain"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "ali-al-naqi-twelver-imam-uwais-al-qarni-3-7",
+      "type": "historique",
+      "title": "‘Alī al-Naqī, Twelver Imam & Uwais al-Qarni",
+      "hijriDay": 3,
+      "hijriMonth": 7,
+      "details": [
+        "3 Rajab — ‘Alī al-Naqī, Twelver Imam & Uwais al-Qarni"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "nazim-al-haqqani-a-turkish-cypriot-sufi-muslim-sheikh-and-spiritual-leader-of-th",
+      "type": "historique",
+      "title": "Nazim Al-Haqqani, a Turkish Cypriot Sufi Muslim sheikh and spiritual leader of the Naqshbandi tariqa",
+      "hijriDay": 8,
+      "hijriMonth": 7,
+      "details": [
+        "8 Rajab — Nazim Al-Haqqani, a Turkish Cypriot Sufi Muslim sheikh and spiritual leader of the Naqshbandi tariqa."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "akhundzada-saif-ur-rahman-mubarak-the-founder-of-the-naqshbandi-mujaddidi-saifia",
+      "type": "historique",
+      "title": "Akhundzada Saif-ur-Rahman Mubarak, the founder of the Naqshbandi Mujaddidi Saifia Tariqa",
+      "hijriDay": 14,
+      "hijriMonth": 7,
+      "details": [
+        "14 Rajab — Akhundzada Saif-ur-Rahman Mubarak, the founder of the Naqshbandi Mujaddidi Saifia Tariqa."
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "zainab-bint-ali-15-7",
+      "type": "historique",
+      "title": "Zainab bint Ali",
+      "hijriDay": 15,
+      "hijriMonth": 7,
+      "details": [
+        "15 Rajab — Zainab bint Ali"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "muawiya-first-caliph-of-the-umayyad-caliphate-22-7",
+      "type": "historique",
+      "title": "Mu'awiya, first caliph of the Umayyad Caliphate",
+      "hijriDay": 22,
+      "hijriMonth": 7,
+      "details": [
+        "22 Rajab — Mu'awiya, first caliph of the Umayyad Caliphate"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "musa-al-kadhim-seventh-twelver-imam-25-7",
+      "type": "historique",
+      "title": "Musā' al-Kādhim, seventh Twelver Imam",
+      "hijriDay": 25,
+      "hijriMonth": 7,
+      "details": [
+        "25 Rajab — Musā' al-Kādhim, seventh Twelver Imam"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "al-nawawi-shafiite-jurist-and-hadith-scholar-25-7",
+      "type": "historique",
+      "title": "Al-Nawawi, Shafi'ite jurist and hadith scholar",
+      "hijriDay": 25,
+      "hijriMonth": 7,
+      "details": [
+        "25 Rajab — Al-Nawawi, Shafi'ite jurist and hadith scholar"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "abu-talib-ibn-abdul-muttalib-uncle-of-muhammad-and-father-of-ali-26-7",
+      "type": "historique",
+      "title": "Abu Talib ibn Abdul Muttalib, uncle of Muhammad and father of Ali",
+      "hijriDay": 26,
+      "hijriMonth": 7,
+      "details": [
+        "26 Rajab — Abu Talib ibn Abdul Muttalib, uncle of Muhammad and father of Ali"
+      ],
+      "monthKey": "rajab"
+    },
+    {
+      "id": "birth-of-zaynab-bint-ali-1-8",
+      "type": "historique",
+      "title": "birth of Zaynab bint Ali",
+      "hijriDay": 1,
+      "hijriMonth": 8,
+      "details": [
+        "01 Sha'ban — birth of Zaynab bint Ali"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "death-of-2-8",
+      "type": "historique",
+      "title": "death of",
+      "hijriDay": 2,
+      "hijriMonth": 8,
+      "details": [
+        "02 Sha'ban — death of (Imam Azam) Abu Hanifa"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "birth-of-husayn-ibn-ali-3-8",
+      "type": "historique",
+      "title": "birth of Husayn ibn Ali",
+      "hijriDay": 3,
+      "hijriMonth": 8,
+      "details": [
+        "03 Sha'ban — birth of Husayn ibn Ali"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "birth-of-abbas-ibn-ali-4-8",
+      "type": "historique",
+      "title": "birth of Abbas ibn Ali",
+      "hijriDay": 4,
+      "hijriMonth": 8,
+      "details": [
+        "04 Sha'ban — birth of Abbas ibn Ali"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "birth-of-ali-ibn-husayn-5-8",
+      "type": "historique",
+      "title": "birth of Ali ibn Husayn",
+      "hijriDay": 5,
+      "hijriMonth": 8,
+      "details": [
+        "05 Sha'ban — birth of Ali ibn Husayn"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "death-of-fizza-the-hand-maiden-5-8",
+      "type": "historique",
+      "title": "death of Fizza, the hand-maiden",
+      "hijriDay": 5,
+      "hijriMonth": 8,
+      "details": [
+        "05 Sha'ban — death of Fizza, the hand-maiden (Qaneez) of Fatimah"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "birth-of-qasim-ibn-hasan-7-8",
+      "type": "historique",
+      "title": "birth of Qasim ibn Hasan",
+      "hijriDay": 7,
+      "hijriMonth": 8,
+      "details": [
+        "07 Sha'ban — birth of Qasim ibn Hasan"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "birth-of-ali-al-akbar-ibn-husayn-11-8",
+      "type": "historique",
+      "title": "birth of Ali al-Akbar ibn Husayn",
+      "hijriDay": 11,
+      "hijriMonth": 8,
+      "details": [
+        "11 Sha'ban — birth of Ali al-Akbar ibn Husayn"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "holiday-known-as-laylat-al-baraat-or-nisfu-shaban-15-8",
+      "type": "fete",
+      "title": "holiday known as Laylat al-Bara'at or Nisfu Sha'ban",
+      "hijriDay": 15,
+      "hijriMonth": 8,
+      "details": [
+        "15 Sha'ban — holiday known as Laylat al-Bara'at or Nisfu Sha'ban; birth of Muhammad al-Mahdi"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "death-of-lal-shahbaz-qalandar-21-8",
+      "type": "historique",
+      "title": "death of Lal Shahbaz Qalandar",
+      "hijriDay": 21,
+      "hijriMonth": 8,
+      "details": [
+        "21 Sha'ban — death of Lal Shahbaz Qalandar"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "death-of-muhammad-usman-damani-22-8",
+      "type": "historique",
+      "title": "death of Muhammad Usman Damani",
+      "hijriDay": 22,
+      "hijriMonth": 8,
+      "details": [
+        "22 Sha'ban — death of Muhammad Usman Damani"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "death-of-sayyad-laal-shah-hamdani-27-8",
+      "type": "historique",
+      "title": "death of Sayyad Laal Shah Hamdani",
+      "hijriDay": 27,
+      "hijriMonth": 8,
+      "details": [
+        "27 Sha'ban — death of Sayyad Laal Shah Hamdani"
+      ],
+      "monthKey": "shaban"
+    },
+    {
+      "id": "eid-al-fitr-is-celebrated-throughout-the-muslim-world-for-the-first-three-days-o",
+      "type": "fete",
+      "title": "Eid al-Fitr is celebrated throughout the Muslim World for the first three days of this month",
+      "hijriDay": null,
+      "hijriMonth": 10,
+      "details": [
+        "Every 1st day of Shawwāl — Eid al-Fitr is celebrated throughout the Muslim World for the first three days of this month (but celebrations last until the 29th/30th day as per the festive season's duration)."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "early-muslims-took-part-in-the-battle-of-uhud-7-10",
+      "type": "historique",
+      "title": "early Muslims took part in the Battle of Uhud",
+      "hijriDay": 7,
+      "hijriMonth": 10,
+      "details": [
+        "7 Shawwāl 3 AH — early Muslims took part in the Battle of Uhud."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "birth-of-ahmed-raza-khan-10-10",
+      "type": "historique",
+      "title": "birth of Ahmed Raza Khan",
+      "hijriDay": 10,
+      "hijriMonth": 10,
+      "details": [
+        "10 Shawwal — birth of Ahmed Raza Khan."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "primary-traditionist-of-the-sunni-muslims-muhammad-al-bukhari-was-born-in-194-ah",
+      "type": "historique",
+      "title": "primary traditionist of the Sunni Muslims, Muhammad al-Bukhari, was born in 194 AH",
+      "hijriDay": 13,
+      "hijriMonth": 10,
+      "details": [
+        "13 Shawwāl — primary traditionist of the Sunni Muslims, Muhammad al-Bukhari, was born in 194 AH."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "urs-of-sufi-mystic-and-poet-amir-khusro-18-10",
+      "type": "fete",
+      "title": "urs of Sufi Mystic And Poet Amir Khusro",
+      "hijriDay": 18,
+      "hijriMonth": 10,
+      "details": [
+        "18 Shawwal — urs of Sufi Mystic And Poet Amir Khusro."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "death-of-haji-dost-muhammad-qandhari-an-afghan-sufi-master-of-naqshbandi-traditi",
+      "type": "historique",
+      "title": "death of Haji Dost Muhammad Qandhari, an Afghan Sufi master of Naqshbandi tradition",
+      "hijriDay": 22,
+      "hijriMonth": 10,
+      "details": [
+        "22 Shawwāl 1284 AH — death of Haji Dost Muhammad Qandhari, an Afghan Sufi master of Naqshbandi tradition."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "martyrdom-of-imam-ja-far-as-sadiq-25-10",
+      "type": "historique",
+      "title": "martyrdom of Imām Ja‘far as-Sādiq",
+      "hijriDay": 25,
+      "hijriMonth": 10,
+      "details": [
+        "25 Shawwāl 148 AH — martyrdom of Imām Ja‘far as-Sādiq."
+      ],
+      "monthKey": "shawwal"
+    },
+    {
+      "id": "the-muslims-took-part-in-the-battle-of-the-trench-5-11",
+      "type": "historique",
+      "title": "the Muslims took part in the Battle of the Trench",
+      "hijriDay": 5,
+      "hijriMonth": 11,
+      "details": [
+        "5 AH — the Muslims took part in the Battle of the Trench."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "truce-of-hudaybiya-6-11",
+      "type": "historique",
+      "title": "Truce of Hudaybiya",
+      "hijriDay": 6,
+      "hijriMonth": 11,
+      "details": [
+        "6 AH — Truce of Hudaybiya."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "pledge-of-the-tree-6-11",
+      "type": "historique",
+      "title": "Pledge of the Tree",
+      "hijriDay": 6,
+      "hijriMonth": 11,
+      "details": [
+        "6 AH — Pledge of the Tree."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "the-first-pilgrimage-the-return-to-mecca-for-the-performance-of-umrah-by-muhamma",
+      "type": "historique",
+      "title": "The first pilgrimage - the return to Mecca for the performance of Umrah by Muhammad and his companions",
+      "hijriDay": 7,
+      "hijriMonth": 11,
+      "details": [
+        "7 AH — The first pilgrimage - the return to Mecca for the performance of Umrah by Muhammad and his companions."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "birth-anniversary-of-fatima-bint-musa-1-11",
+      "type": "historique",
+      "title": "birth anniversary of Fatima bint Musa",
+      "hijriDay": 1,
+      "hijriMonth": 11,
+      "details": [
+        "1 Dhu'l-Qa'da — birth anniversary of Fatima bint Musa."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "treaty-of-hudaybiya-1-11",
+      "type": "historique",
+      "title": "Treaty of Hudaybiya",
+      "hijriDay": 1,
+      "hijriMonth": 11,
+      "details": [
+        "1 Dhu'l-Qa'da — Treaty of Hudaybiya."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "hajj-was-made-incumbent-upon-muslims-in-8-ah-8-11",
+      "type": "historique",
+      "title": "Hajj was made incumbent upon Muslims in 8 AH",
+      "hijriDay": 8,
+      "hijriMonth": 11,
+      "details": [
+        "8 Dhu'l-Qa'da — Hajj was made incumbent upon Muslims in 8 AH."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "birth-anniversary-of-imam-ali-ibn-musa-al-rida-the-eighth-twelver-imam-11-11",
+      "type": "historique",
+      "title": "birth anniversary of Imam Ali ibn Musa al-Rida, the eighth Twelver Imam)",
+      "hijriDay": 11,
+      "hijriMonth": 11,
+      "details": [
+        "11 Dhu'l-Qa'da — birth anniversary of Imam Ali ibn Musa al-Rida, the eighth Twelver Imam)."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "martyrdom-of-imam-ali-al-rida-according-to-one-tradition-23-11",
+      "type": "historique",
+      "title": "martyrdom of Imam Ali al-Rida according to one tradition",
+      "hijriDay": 23,
+      "hijriMonth": 11,
+      "details": [
+        "23 Dhu'l-Qa'da — martyrdom of Imam Ali al-Rida according to one tradition."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "arabic-the-day-earth-was-laid-beneath-the-kaba-and-the-birth-date-of-ibrahim-and",
+      "type": "historique",
+      "title": "Arabic: يوم دحو الارض, the day earth was laid beneath the Ka'ba, and the birth date of Ibrahim and Jesus",
+      "hijriDay": 25,
+      "hijriMonth": 11,
+      "details": [
+        "25 Dhu'l-Qa'da — Arabic: يوم دحو الارض, the day earth was laid beneath the Ka'ba, and the birth date of Ibrahim and Jesus."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "martyrdom-of-imam-muhammad-ibn-ali-at-taqi-al-jawad-the-ninth-twelver-imam-29-11",
+      "type": "historique",
+      "title": "martyrdom of Imam Muhammad ibn Ali at-Taqi al-Jawad, the ninth Twelver Imam",
+      "hijriDay": 29,
+      "hijriMonth": 11,
+      "details": [
+        "29 Dhu'l-Qa'da — martyrdom of Imam Muhammad ibn Ali at-Taqi al-Jawad, the ninth Twelver Imam."
+      ],
+      "monthKey": "dhul-qada"
+    },
+    {
+      "id": "assassination-of-uthman-the-prominent-companion-and-son-in-law-of-muhammad-and-k",
+      "type": "historique",
+      "title": "assassination of Uthman, the prominent companion and son-in-law of Muhammad and Khadija",
+      "hijriDay": 18,
+      "hijriMonth": 12,
+      "details": [
+        "18 Dhu'l-Hijja — assassination of Uthman, the prominent companion and son-in-law of Muhammad and Khadija. Husband of Ruqayya and Umm Kulthum."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "nikah-1-12",
+      "type": "historique",
+      "title": "nikah",
+      "hijriDay": 1,
+      "hijriMonth": 12,
+      "details": [
+        "01 Dhu'l-Hijja — nikah (marriage) of Ali and Fatima – AH 2 (24 February AD 624)."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "martyrdom-of-twelver-and-isma-ili-shi-ite-imam-muhammad-al-baqir-ah-114-7-12",
+      "type": "historique",
+      "title": "martyrdom of Twelver and Ismāʿīlī Shīʿite Imām), Muhammad al-Bāqir – AH 114",
+      "hijriDay": 7,
+      "hijriMonth": 12,
+      "details": [
+        "07 Dhu'l-Hijja — martyrdom of Twelver and Ismāʿīlī Shīʿite Imām), Muhammad al-Bāqir – AH 114."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "husayn-ibn-ali-began-his-journey-to-karbala-from-mecca-8-12",
+      "type": "historique",
+      "title": "Husayn ibn ʿAlī began his journey to Karbalāʾ from Mecca",
+      "hijriDay": 8,
+      "hijriMonth": 12,
+      "details": [
+        "08 Dhu'l-Hijja — Husayn ibn ʿAlī began his journey to Karbalāʾ from Mecca."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "martyrdom-of-muslim-ibn-aqil-and-hani-ibn-urwah-in-kufah-9-12",
+      "type": "historique",
+      "title": "martyrdom of Muslim ibn ʿAqīl and Hani ibn Urwah in Kufah",
+      "hijriDay": 9,
+      "hijriMonth": 12,
+      "details": [
+        "09 Dhu'l-Hijja — martyrdom of Muslim ibn ʿAqīl and Hani ibn Urwah in Kufah. It is also a day of supererogatory fasting – AH 60."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "assassination-of-uthman-12-12",
+      "type": "historique",
+      "title": "assassination of Uthman",
+      "hijriDay": 12,
+      "hijriMonth": 12,
+      "details": [
+        "12 Dhu'l-Hijja or 18 Dhu'l-Hijja — assassination of Uthman."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "birth-of-twelver-imam-ali-al-naqi-ah-214-disputed-date-15-12",
+      "type": "historique",
+      "title": "birth of Twelver Imām, ʿAlī al-Naqī – AH 214 [Disputed date]",
+      "hijriDay": 15,
+      "hijriMonth": 12,
+      "details": [
+        "15 Dhu'l-Hijja — birth of Twelver Imām, ʿAlī al-Naqī – AH 214 [Disputed date]."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "shi-ite-muslims-celebrate-the-event-of-ghadir-khumm-ah-10-18-12",
+      "type": "fete",
+      "title": "Shīʿite Muslims celebrate the event of Ghadir Khumm – AH 10",
+      "hijriDay": 18,
+      "hijriMonth": 12,
+      "details": [
+        "18 Dhu'l-Hijja — Shīʿite Muslims celebrate the event of Ghadir Khumm – AH 10."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "fatimah-went-to-alis-house-after-their-marriage-19-12",
+      "type": "historique",
+      "title": "Fatimah went to Ali's house after their marriage",
+      "hijriDay": 19,
+      "hijriMonth": 12,
+      "details": [
+        "19 Dhu'l-Hijja — Fatimah went to Ali's house after their marriage."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "martyrdom-of-meesam-tammar-friend-of-ali-ah-60-23-12",
+      "type": "historique",
+      "title": "martyrdom of Meesam Tammar, friend of Ali – AH 60",
+      "hijriDay": 23,
+      "hijriMonth": 12,
+      "details": [
+        "23 Dhu'l-Hijja — martyrdom of Meesam Tammar, friend of Ali – AH 60."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "martyrdom-of-two-sons-of-muslim-ibn-aqil-in-kufa-ah-60-23-12",
+      "type": "historique",
+      "title": "martyrdom of two sons of Muslim ibn ʿAqīl in Kufa – AH 60",
+      "hijriDay": 23,
+      "hijriMonth": 12,
+      "details": [
+        "23 Dhu'l-Hijja — martyrdom of two sons of Muslim ibn ʿAqīl in Kufa – AH 60."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "event-of-the-mubahala-took-place-24-12",
+      "type": "fete",
+      "title": "event of the mubahala took place",
+      "hijriDay": 24,
+      "hijriMonth": 12,
+      "details": [
+        "24 Dhu'l-Hijja — event of the mubahala took place ('Eid al-Mubahilah)."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "some-historians-mention-that-the-hadith-ahl-al-kisa-event-was-also-on-the-same-d",
+      "type": "historique",
+      "title": "some historians mention that the Hadith, Ahl al-Kisa', event was also on the same day prior to Muhammad setting out for Mubahila",
+      "hijriDay": 24,
+      "hijriMonth": 12,
+      "details": [
+        "24 Dhu'l-Hijja — some historians mention that the Hadith, Ahl al-Kisa', event was also on the same day prior to Muhammad setting out for Mubahila."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "supplication-day-and-giving-of-alms-with-the-ring-by-ali-24-12",
+      "type": "historique",
+      "title": "supplication day and giving of alms with the ring by Ali",
+      "hijriDay": 24,
+      "hijriMonth": 12,
+      "details": [
+        "24 Dhu'l-Hijja — supplication day and giving of alms with the ring by Ali. In reply verse, \"Verily your Walee is Allah; and His Messenger and those who establish salah, and pay zakat while they be in Rukooʿ. (Maa-Idah: 55)\" was revealed."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "sura-al-insan-or-hal-ata-or-dahar-which-records-the-giving-of-alms-to-orphans-th",
+      "type": "historique",
+      "title": "Sura Al-Insan or Hal Ata, or Dahar, which records the giving of alms to orphans, the destitute and travellers by Fatimah Hasan and Husain was revealed",
+      "hijriDay": 25,
+      "hijriMonth": 12,
+      "details": [
+        "25 Dhu'l-Hijja — Sura Al-Insan or Hal Ata, or Dahar, which records the giving of alms to orphans, the destitute and travellers by Fatimah Hasan and Husain was revealed."
+      ],
+      "monthKey": "dhul-hijja"
+    },
+    {
+      "id": "ali-becomes-the-caliph-of-islam-ah-35-25-12",
+      "type": "historique",
+      "title": "Ali becomes the Caliph of Islam – AH 35",
+      "hijriDay": 25,
+      "hijriMonth": 12,
+      "details": [
+        "25 Dhu'l-Hijja — Ali becomes the Caliph of Islam – AH 35.[citation needed]"
+      ],
+      "monthKey": "dhul-hijja"
+    }
+  ]
+}

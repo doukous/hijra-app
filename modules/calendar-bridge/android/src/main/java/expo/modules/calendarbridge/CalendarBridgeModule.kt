@@ -36,12 +36,12 @@ class DateHelper {
             monthEnStr = DateHelper.formatHijrahDate("MMMM", today)
         )
 
-        fun getMonthProps(month, year): MonthProps {
-            val hijriDate = hijriDate.of(year, month, 1)
+        fun getMonthProps(calendar: String, month: Int, year: Int): MonthProps {
+            val date = if (calendar == "hijri") HijrahDate.of(year, month, 1) else LocalDate.of(year, month, 1)
 
-            return Date(
-                length = hijriDate.lengthOfMonth()
-                firstDayWeekPosition = hijrahDate.get(ChronoField.DAY_OF_WEEK)
+            return MonthProps(
+                length = date.lengthOfMonth(),
+                firstDayWeekPosition = date.get(ChronoField.DAY_OF_WEEK)
             )
         }
 
@@ -154,8 +154,8 @@ class CalendarBridgeModule : Module() {
         }
 
         Function("getMonthProps") {
-            month: Int, year: Int -> DateHelper
-            .getMonthProps(month, year)
+            calendar: String, month: Int, year: Int -> DateHelper
+            .getMonthProps(calendar, month, year)
         }
 
         Function("setDate") {

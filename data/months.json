@@ -1,0 +1,63 @@
+{
+  "muharram": {
+    "number": 1,
+    "nameEn": "Muharram",
+    "wikipedia": "https://en.wikipedia.org/wiki/Muharram"
+  },
+  "safar": {
+    "number": 2,
+    "nameEn": "Safar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Safar"
+  },
+  "rabi-al-awwal": {
+    "number": 3,
+    "nameEn": "Rabi al-Awwal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rabi_I"
+  },
+  "rabi-ath-thani": {
+    "number": 4,
+    "nameEn": "Rabi ath-Thani",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rabi_II"
+  },
+  "jumada-I": {
+    "number": 5,
+    "nameEn": "Jumada I",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jumada_I"
+  },
+  "jumada-II": {
+    "number": 6,
+    "nameEn": "Jumada II",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jumada_II"
+  },
+  "rajab": {
+    "number": 7,
+    "nameEn": "Rajab",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rajab"
+  },
+  "shaban": {
+    "number": 8,
+    "nameEn": "Sha'ban",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sha'ban"
+  },
+  "ramadan": {
+    "number": 9,
+    "nameEn": "Ramadan",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ramadan_(calendar_month)"
+  },
+  "shawwal": {
+    "number": 10,
+    "nameEn": "Shawwal",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shawwal"
+  },
+  "dhul-qada": {
+    "number": 11,
+    "nameEn": "Dhu'l-Qa'da",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dhu'l-Qa'da"
+  },
+  "dhul-hijja": {
+    "number": 12,
+    "nameEn": "Dhu'l-Hijja",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dhu'l-Hijja"
+  }
+}
+

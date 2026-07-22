@@ -1,11 +1,35 @@
-import { DateType } from "@/modules/calendar-bridge/src/CalendarBridge.types";
+import { CalendarType, DateType } from "@/modules/calendar-bridge/src/CalendarBridge.types";
 import CalendarBridge from "@/modules/calendar-bridge/src/CalendarBridgeModule";
 import { useEffect, useState } from "react";
 
 export const daysInitials = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
+export const CALENDAR_ROWS = 6;
+export const CALENDAR_COLS = 7;
+export const TOTAL_DAYS = CALENDAR_ROWS * CALENDAR_COLS;
 
-class DateHelper {
+export const getMonthTable = (firstDayPositionInWeek: number, monthLength: number) => {
+  const calendarTable = new Array(CALENDAR_ROWS).fill(null).map(() => new Array(CALENDAR_COLS).fill(null))
+
+  let currentDay = 1;
+
+  for (let i = firstDayPositionInWeek - 1; i < CALENDAR_COLS; i++)
+  {
+    calendarTable[0][i] = currentDay;
+    currentDay++;
+  }
+
+  for (let i = 1; i <= CALENDAR_ROWS ; i++) {
+    for (let j = 0; j < CALENDAR_COLS && ((CALENDAR_COLS * i) + j) < monthLength; j++) {
+      calendarTable[i][j] = currentDay;
+      currentDay++;
+    }
+  }
+
+  return calendarTable;
+}
+
+export class DateHelper {
   get hijrahDate() {
     return CalendarBridge.hijrahDate
   }
@@ -18,10 +42,6 @@ class DateHelper {
     return CalendarBridge.monthProps
   }
 
-  setDate(day: number, month: number, year: number) {
-    CalendarBridge.setDate(day, month, year)
-  }
-
   setPreviousMonth() {
     CalendarBridge.setToPreviousMonth()
   }
@@ -30,6 +50,9 @@ class DateHelper {
     CalendarBridge.setToNextMonth()
   }
 
+  static setDate(day: number, month: number, year: number) {
+    CalendarBridge.setDate(day, month, year)
+  }
 
   static convertToHijri(day: number, month: number, year: number): DateType {
     return CalendarBridge.convertGregorianToHijri(day, month, year)
@@ -37,6 +60,10 @@ class DateHelper {
 
   static convertToGregorian(day: number, month: number, year: number): DateType {
     return CalendarBridge.convertHijriToGregorian(day, month, year)
+  }
+
+  static getMonthLength(type: CalendarType, month: number, year: number): number {
+    return CalendarBridge.getMonthProps(type, month, year).length;
   }
 }
 
@@ -66,7 +93,7 @@ export const useDate = () => {
   }
 
   const setDate = (day: number, month: number, year: number) => {
-    date.setDate(day, month, year)
+    DateHelper.setDate(day, month, year)
   }
 
   const setToNextMonth = () => {

@@ -2,6 +2,7 @@ import { NativeModule, requireNativeModule } from "expo";
 
 import {
   CalendarBridgeModuleEvents,
+  CalendarType,
   DateType,
   MonthPropsType
 } from "./CalendarBridge.types";
@@ -12,6 +13,7 @@ declare class CalendarBridgeModule extends NativeModule<CalendarBridgeModuleEven
   gregorianDate: DateType;
   monthProps: MonthPropsType;
 
+  getMonthProps(calendar: CalendarType, month: number, year: number): MonthPropsType;
   setDate(day: number, month: number, year: number): void;
   setToPreviousMonth(): void;
   setToNextMonth(): void;

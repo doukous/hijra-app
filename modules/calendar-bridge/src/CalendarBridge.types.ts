@@ -14,3 +14,5 @@ export type DateType = {
 
   monthEnStr: string
 };
+
+export type CalendarType = "hijri" | "gregorian"
