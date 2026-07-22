@@ -88,16 +88,8 @@ export const useDate = () => {
     return () => listener.remove()
   }, [])
 
-  const setToPreviousMonth = () => {
-    date.setPreviousMonth()
-  }
-
   const setDate = (day: number, month: number, year: number) => {
     DateHelper.setDate(day, month, year)
-  }
-
-  const setToNextMonth = () => {
-    date.setNextMonth()
   }
 
   const convertToHijri = (day: number, month: number, year: number) => {
@@ -112,8 +104,6 @@ export const useDate = () => {
     gregorianDate,
     monthProps,
     setDate,
-    setToNextMonth,
-    setToPreviousMonth,
     convertToGregorian,
     convertToHijri
   }

@@ -1,7 +1,11 @@
 import { View, Text, ScrollView, Pressable } from "react-native";
 import { useLocalSearchParams, router } from "expo-router";
 import { ChevronLeft } from "lucide-react-native";
-import { getEventById, getMonthName, EVENT_TYPE_COLORS } from "@/utils/events-helpers";
+import {
+  EVENT_TYPE_COLORS,
+  getEventById,
+  getMonthName,
+} from "@/utils/events-helpers";
 import { useDate } from "@/utils/date-helpers";
 
 export default function EventDetailScreen() {
@@ -19,19 +23,24 @@ export default function EventDetailScreen() {
         >
           <ChevronLeft />
         </Pressable>
-        <Text className="text-lg font-semibold">Événement introuvable</Text>
-        <Text className="text-gray-500">Aucun événement ne correspond à l&apos;identifiant « {id} ».</Text>
+        <Text className="text-lg font-semibold">Event not found</Text>
+        <Text className="text-gray-500">No event matches the id &ldquo;{id}&rdquo;.</Text>
       </View>
     );
   }
 
   const colors = EVENT_TYPE_COLORS[event.type];
-  const monthName = getMonthName(event.hijriMonth);
+  const monthName = getMonthName(event.monthNumber);
 
   const gregorianDate =
-    event.hijriDay !== null
-      ? convertToGregorian(event.hijriDay, event.hijriMonth, hijrahDate.year)
+    event.date !== null
+      ? convertToGregorian(event.date, event.monthNumber, hijrahDate.year)
       : null;
+
+  const hijriDateLabel =
+    event.date !== null
+      ? `${event.date} ${monthName}${event.year ? ` ${event.year}` : ""}`
+      : `Throughout ${monthName}`;
 
   return (
     <View className="flex-1 bg-white">
@@ -47,7 +56,7 @@ export default function EventDetailScreen() {
       <ScrollView className="flex-1 px-5" contentContainerClassName="pb-8 gap-y-5">
         <View className="gap-y-2">
           <View className={`self-start rounded-full px-3 py-1 ${colors.badge}`}>
-            <Text className="text-xs font-semibold uppercase tracking-wide">
+            <Text className={`text-xs font-semibold uppercase tracking-wide ${colors.text}`}>
               {colors.label}
             </Text>
           </View>
@@ -56,14 +65,12 @@ export default function EventDetailScreen() {
 
         <View className="rounded-xl bg-gray-50 p-4 gap-y-3">
           <View>
-            <Text className="text-xs text-gray-500 uppercase tracking-wide">Date hégirienne</Text>
-            <Text className="text-lg font-semibold text-gray-900">
-              {event.hijriDay !== null ? `${event.hijriDay} ` : ""}{monthName} {event.hijriMonth}
-            </Text>
+            <Text className="text-xs text-gray-500 uppercase tracking-wide">Hijri date</Text>
+            <Text className="text-lg font-semibold text-gray-900">{hijriDateLabel}</Text>
           </View>
           {gregorianDate && (
             <View>
-              <Text className="text-xs text-gray-500 uppercase tracking-wide">Équivalent grégorien</Text>
+              <Text className="text-xs text-gray-500 uppercase tracking-wide">Gregorian equivalent</Text>
               <Text className="text-lg font-semibold text-gray-900">
                 {gregorianDate.day} {gregorianDate.monthEnStr} {gregorianDate.year}
               </Text>
@@ -73,17 +80,11 @@ export default function EventDetailScreen() {
 
         <View className="gap-y-3">
           <Text className="text-sm font-semibold text-gray-500 uppercase tracking-wide">
-            Détails
+            Details
           </Text>
-          {event.details.length > 0 ? (
-            event.details.map((detail, key) => (
-              <Text key={key} className="text-base text-gray-800 leading-6">
-                {detail}
-              </Text>
-            ))
-          ) : (
-            <Text className="text-gray-500 italic">Aucun détail supplémentaire.</Text>
-          )}
+          <Text className="text-base text-gray-800 leading-6">
+            {event.description}
+          </Text>
         </View>
       </ScrollView>
     </View>

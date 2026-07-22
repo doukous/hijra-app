@@ -1,30 +1,37 @@
 import { useDate, todayDate, daysInitials, getMonthTable } from "@/utils/date-helpers";
+import {
+  EVENT_TYPE_COLORS,
+  getDaysWithEvents,
+  getEventsForDay,
+} from "@/utils/events-helpers";
 import { View, Text, Pressable, ScrollView } from "react-native";
-import { useState } from "react";
-import { Link } from "expo-router";
+import { Link, router } from "expo-router";
 import { ChevronLeft, ChevronRight, Info, Menu } from "lucide-react-native";
 
 
 export default function CalendarScreen() {
-  const { hijrahDate, gregorianDate, monthProps, setDate, setToNextMonth, setToPreviousMonth } = useDate()
-  const [pickedDay, setPickedDay] = useState(todayDate.day)
+  const { hijrahDate, gregorianDate, monthProps, setDate } = useDate()
 
   const calendarTable = getMonthTable(monthProps.firstDayWeekPosition, monthProps.length)
+  const daysWithEvents = getDaysWithEvents(hijrahDate.month)
+  const dayEvents = getEventsForDay(hijrahDate.month, hijrahDate.day)
 
   const onPreviousMonth = () => {
-    setToPreviousMonth()
-    setPickedDay(1)
+    const hijrahMonth = hijrahDate.month === 1 ? 12 : hijrahDate.month - 1
+    const hijrahYear = hijrahDate.month === 1 ? hijrahDate.year - 1 : hijrahDate.year
+
+    setDate(1, hijrahMonth, hijrahYear)
   }
 
   const onNextMonth = () => {
-    setToNextMonth()
-    setPickedDay(1)
+    const hijrahMonth = hijrahDate.month === 12 ? 1 : hijrahDate.month + 1
+    const hijrahYear = hijrahDate.month === 12 ? hijrahDate.year + 1 : hijrahDate.year
+
+    setDate(1, hijrahMonth, hijrahYear)
   }
 
-  const onTodayDate = () => {
+  const onTodayDate = () =>
     setDate(todayDate.day, todayDate.month, todayDate.year)
-    setPickedDay(todayDate.day)
-  }
 
   return (
     <View className="gap-y-1 w-14/15 mx-auto my-2">
@@ -59,7 +66,11 @@ export default function CalendarScreen() {
 
             <Pressable
               className="h-auto px-3 items-center justify-center rounded-xl bg-white"
-              onPress={ () => null }
+              onPress={() =>
+                router.push(
+                  `/(modal)/month-info?month=${hijrahDate.month}&year=${hijrahDate.year}`
+                )
+              }
             >
               <Info />
             </Pressable>
@@ -101,16 +112,22 @@ export default function CalendarScreen() {
                     <Pressable
                       key={key}
                       className="size-12 rounded-xl items-center justify-center"
-                      onPress={() => setPickedDay(col)}
+                      onPress={() => col !== null && setDate(col, hijrahDate.month, hijrahDate.year)}
                     >
                       {
-                        pickedDay !== col ?
+                        hijrahDate.day !== col ?
                           <View className="relative size-2/3 items-center justify-center">
                             <Text className="text-center my-auto p-2">{col}</Text>
+                            {col !== null && daysWithEvents.has(col) && (
+                              <View className="absolute bottom-1 size-1.5 rounded-full bg-amber-500" />
+                            )}
                           </View>
                           :
                           <View className="relative size-2/3 items-center justify-center rounded-full bg-cyan-500">
                             <Text className="text-white">{col}</Text>
+                            {col !== null && daysWithEvents.has(col) && (
+                              <View className="absolute bottom-1 size-1.5 rounded-full bg-white" />
+                            )}
                           </View>
                       }
                     </Pressable>
@@ -123,8 +140,31 @@ export default function CalendarScreen() {
 
       <ScrollView className="w-full h-1/3 p-2 gap-y-6 bg-white rounded-xl">
         <View>
-          <Text className="font-bold text-xl">{pickedDay} {hijrahDate.month} {hijrahDate.year} AH</Text>
+          <Text className="font-bold text-xl">{hijrahDate.day} {hijrahDate.monthEnStr} {hijrahDate.year} AH</Text>
           <Text>{gregorianDate.day} / {gregorianDate.month} / {gregorianDate.year}</Text>
+        </View>
+        <View className="gap-y-3">
+          {dayEvents.length === 0 ? (
+            <Text className="text-gray-500 italic">No events for this day.</Text>
+          ) : (
+            dayEvents.map((event) => {
+              const colors = EVENT_TYPE_COLORS[event.type];
+              return (
+                <Pressable
+                  key={event.id}
+                  onPress={() => router.push(`/event/${event.id}`)}
+                  className="rounded-lg border border-gray-200 p-3 gap-y-1 active:bg-gray-50"
+                >
+                  <View className={`self-start rounded-full px-2 py-0.5 ${colors.badge}`}>
+                    <Text className={`text-[10px] font-semibold uppercase tracking-wide ${colors.text}`}>
+                      {colors.label}
+                    </Text>
+                  </View>
+                  <Text className="font-semibold text-base text-gray-900">{event.title}</Text>
+                </Pressable>
+              );
+            })
+          )}
         </View>
       </ScrollView>
     </View>

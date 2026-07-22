@@ -101,18 +101,6 @@ class DateHelper {
     fun setDate(day: Int, month: Int, year: Int) {
         hijrahDate = HijrahDate.of(year, month, day)
     }
-
-    fun setToPreviousMonth() {
-        hijrahDate = hijrahDate
-            .minus(1, ChronoUnit.MONTHS)
-            .with(ChronoField.DAY_OF_MONTH, 1)
-    }
-
-    fun setToNextMonth() {
-        hijrahDate = hijrahDate
-            .plus(1, ChronoUnit.MONTHS)
-            .with(ChronoField.DAY_OF_MONTH, 1)
-    }
 }
 
 class CalendarBridgeModule : Module() {
@@ -161,16 +149,6 @@ class CalendarBridgeModule : Module() {
         Function("setDate") {
             day: Int, month: Int, year: Int ->
             genericDate.setDate(day, month, year)
-            this@CalendarBridgeModule.sendEvent("onDateChange")
-        }
-
-        Function("setToPreviousMonth") {
-            genericDate.setToPreviousMonth()
-            this@CalendarBridgeModule.sendEvent("onDateChange")
-        }
-
-        Function("setToNextMonth") {
-            genericDate.setToNextMonth()
             this@CalendarBridgeModule.sendEvent("onDateChange")
         }
 

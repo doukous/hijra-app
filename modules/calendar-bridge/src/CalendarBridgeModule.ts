@@ -15,8 +15,6 @@ declare class CalendarBridgeModule extends NativeModule<CalendarBridgeModuleEven
 
   getMonthProps(calendar: CalendarType, month: number, year: number): MonthPropsType;
   setDate(day: number, month: number, year: number): void;
-  setToPreviousMonth(): void;
-  setToNextMonth(): void;
   convertGregorianToHijri(day: number, month: number, year: number): DateType;
   convertHijriToGregorian(day: number, month: number, year: number): DateType;
 }
